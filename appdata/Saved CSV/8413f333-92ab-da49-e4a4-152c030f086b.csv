@@ -1,0 +1,8 @@
+,stats,DataVersion
+minecraft:crafted,"{'minecraft:oak_boat': 1, 'minecraft:oak_planks': 20, 'minecraft:crafting_table': 1}",3337
+minecraft:custom,"{'minecraft:time_since_rest': 4562, 'minecraft:sprint_one_cm': 34776, 'minecraft:damage_taken': 1800, 'minecraft:walk_one_cm': 101534, 'minecraft:mob_kills': 4, 'minecraft:damage_dealt': 668, 'minecraft:swim_one_cm': 8081, 'minecraft:interact_with_crafting_table': 2, 'minecraft:fly_one_cm': 4525, 'minecraft:play_time': 24609, 'minecraft:deaths': 7, 'minecraft:sneak_time': 39, 'minecraft:walk_under_water_one_cm': 12564, 'minecraft:boat_one_cm': 44376, 'minecraft:jump': 162, 'minecraft:leave_game': 2, 'minecraft:time_since_death': 4492, 'minecraft:walk_on_water_one_cm': 40552, 'minecraft:total_world_time': 32691, 'minecraft:fall_one_cm': 2168}",3337
+minecraft:killed,"{'minecraft:wolf': 1, 'minecraft:chicken': 1, 'minecraft:drowned': 1, 'minecraft:cow': 1}",3337
+minecraft:killed_by,"{'minecraft:wolf': 1, 'minecraft:zombie': 1, 'minecraft:enderman': 4}",3337
+minecraft:mined,"{'minecraft:lilac': 5, 'minecraft:peony': 1, 'minecraft:crafting_table': 1, 'minecraft:grass': 7, 'minecraft:grass_block': 5, 'minecraft:oak_log': 5, 'minecraft:dirt': 5, 'minecraft:oak_planks': 4, 'minecraft:oak_leaves': 4}",3337
+minecraft:picked_up,"{'minecraft:nautilus_shell': 1, 'minecraft:crafting_table': 1, 'minecraft:lilac': 5, 'minecraft:feather': 1, 'minecraft:chicken': 1, 'minecraft:leather': 2, 'minecraft:oak_log': 5, 'minecraft:dirt': 8, 'minecraft:rotten_flesh': 1, 'minecraft:wheat_seeds': 1, 'minecraft:peony': 1, 'minecraft:beef': 1, 'minecraft:oak_planks': 4}",3337
+minecraft:used,"{'minecraft:oak_planks': 8, 'minecraft:dirt': 4, 'minecraft:crafting_table': 2, 'minecraft:oak_boat': 1}",3337
