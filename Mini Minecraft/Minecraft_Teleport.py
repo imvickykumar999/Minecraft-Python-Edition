@@ -43,10 +43,13 @@ def input(key):
     if key == 'right mouse down' and mouse.hovered_entity:
         destroy(mouse.hovered_entity)
 
-    if key == 'e':  # press e to teleport at screen center
-        player.x = hit_info.entity.position.x
-        player.y = hit_info.entity.position.y
-        player.z = hit_info.entity.position.z
+    try:
+        if key == 'e': # press e to teleport at screen center
+            player.x = hit_info.entity.position.x
+            player.y = hit_info.entity.position.y
+            player.z = hit_info.entity.position.z
+    except:
+        pass
 
 
 player = FirstPersonController()

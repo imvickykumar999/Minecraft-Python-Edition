@@ -52,10 +52,13 @@ def input(key):
     global c, player
     hit_info = raycast(camera.world_position, camera.forward, distance=100)
 
-    if key == 'right mouse down': 
-        player.x = hit_info.entity.position.x
-        player.y = hit_info.entity.position.y
-        player.z = hit_info.entity.position.z
+    try:
+        if key == 'right mouse down': 
+            player.x = hit_info.entity.position.x
+            player.y = hit_info.entity.position.y
+            player.z = hit_info.entity.position.z
+    except:
+        pass
 
         # # need to create smooth flow of grapple rather than instant switch.
 
