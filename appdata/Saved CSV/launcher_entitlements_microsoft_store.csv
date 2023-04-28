@@ -1,0 +1,35 @@
+,data,formatVersion
+2535464988855267,"{
+	""errors"" : [],
+	""items"" : 
+	[
+		{
+			""name"" : ""product_minecraft_bedrock"",
+			""source"" : ""TRIAL""
+		},
+		{
+			""name"" : ""game_minecraft_bedrock"",
+			""source"" : ""TRIAL""
+		}
+	],
+	""keyId"" : ""1"",
+	""requestId"" : ""db574d5d-798c-4121-9f28-e5c1e7eeb56b"",
+	""signature"" : ""eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEiLCJ4NXQiOiJJVXRXd1l0clNfSXpJS0piaTZzNGtWaF9FNXMifQ.ewogICJlbnRpdGxlbWVudHMiIDogWyB7CiAgICAibmFtZSIgOiAicHJvZHVjdF9taW5lY3JhZnRfYmVkcm9jayIsCiAgICAic291cmNlIiA6ICJUUklBTCIKICB9LCB7CiAgICAibmFtZSIgOiAiZ2FtZV9taW5lY3JhZnRfYmVkcm9jayIsCiAgICAic291cmNlIiA6ICJUUklBTCIKICB9IF0sCiAgInNpZ25lcklkIiA6ICIyNTM1NDY0OTg4ODU1MjY3IiwKICAibmJmIiA6IDE2Nzk2NjYzNzYsCiAgInJlcXVlc3RJZCIgOiAiZGI1NzRkNWQtNzk4Yy00MTIxLTlmMjgtZTVjMWU3ZWViNTZiIiwKICAicmlkY3IiIDogImM5MzkzOWMyYTRjZGQyZDYiLAogICJleHAiIDogMTY3OTgzOTM1NiwKICAiaWF0IiA6IDE2Nzk2NjY1NTYsCiAgInBsYXRmb3JtIiA6ICJPTkVTVE9SRSIKfQ.f2tJ5cYU2a7zu1BBh7KdP-uohVqxRnEBoCdvhc8HwkPj0oYiWxhZ_LLRRoKAGDky1FPZWi2jPihnYEFQIn6HirfT5EATQalrcw_aZ6qJFqnVEL8ryiGOLkmUQozgj5us6Fg8Knh9YhonpQl3z4eD8dUGupq7z7MJQxtENKfBRrsqMKInQbEkiyTb_gtaGc3kwuArAMLuGpapzFgosUBbIw9c93RRxxwiF80Xf4wl8ExthjvpwN0LiiT-W0_-4EXuFLRF6nnhc_Ryg7nOCWDl-KUl0yHQXcQXBvZIvVq1Ea9H6pfXTqRfNT7IgZ5JT5s4mptJ47kn9EFdbbj4KbO-7pzRS26gTX1VhueXEuYDlf4s00r9EAVMxc2AdcAbIyMTJmnU4cc5x989GPrrLTh1ARJD2gDoOydmtw12qdAh5f7YCTjfYwWkZwvfCqkJvOVCLECrdUmsuD4U_Lv8fAYraXS_hoULGeNTmBn94Su1JUSbP4yC6b1AP9pzF99DCjHmfezwHLHUOG7r9UHHS73AsXhSP6A1lSIkVRA8Xyc4-Q6cqADlBBWd276yos3igSImTrf32Ey2iyBeIj7ZxAWLmXc2RbaW4DFI5jTylBcx47wi1ylbQzoSSpfjCdPGDpQShzvx-Yk5wZU_VcDkYeY9BvmNlKfx8mKHMe4VLiZRgwI""
+}",1
+2535467605691821,"{
+	""errors"" : [],
+	""items"" : 
+	[
+		{
+			""name"" : ""product_minecraft_bedrock"",
+			""source"" : ""TRIAL""
+		},
+		{
+			""name"" : ""game_minecraft_bedrock"",
+			""source"" : ""TRIAL""
+		}
+	],
+	""keyId"" : ""1"",
+	""requestId"" : ""cc9b3e0f-e7cf-4c98-9006-eefb2cf8cfaa"",
+	""signature"" : ""eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEiLCJ4NXQiOiJJVXRXd1l0clNfSXpJS0piaTZzNGtWaF9FNXMifQ.ewogICJlbnRpdGxlbWVudHMiIDogWyB7CiAgICAibmFtZSIgOiAicHJvZHVjdF9taW5lY3JhZnRfYmVkcm9jayIsCiAgICAic291cmNlIiA6ICJUUklBTCIKICB9LCB7CiAgICAibmFtZSIgOiAiZ2FtZV9taW5lY3JhZnRfYmVkcm9jayIsCiAgICAic291cmNlIiA6ICJUUklBTCIKICB9IF0sCiAgInNpZ25lcklkIiA6ICIyNTM1NDY3NjA1NjkxODIxIiwKICAibmJmIiA6IDE2ODI2MDI0MDUsCiAgInJlcXVlc3RJZCIgOiAiY2M5YjNlMGYtZTdjZi00Yzk4LTkwMDYtZWVmYjJjZjhjZmFhIiwKICAicmlkY3IiIDogIjJiNTUwMDRkNWVhYjQzOWQiLAogICJleHAiIDogMTY4Mjc3NTM4NSwKICAiaWF0IiA6IDE2ODI2MDI1ODUsCiAgInBsYXRmb3JtIiA6ICJPTkVTVE9SRSIKfQ.briwC2LaAxqWCf3YgytpX4rydBUvs4oLAyum2eXh6sLzc3g6dPXOil5QFxkHhl94Q-6Oc-9wYvwb8oQdnVO-urVZMdc3QpuUDIvsXPdz5H05vFJVP6Q2ODCYZWROv1azazjGrLVV14p8BitDtCvi1UincXElIIwdDnz1DL7TpOPKBuXbdYf7vbB9HVRpinaeoTR6mudro1NMx7ud7-yKvNTbGZ-xiwLqyA8xqi_y7yXF34LrY98SIMVDSxSP8gBrVxTtxH-32cJ6PLmSTj15aPoRGks-GJdcR804nFmoqM6heFCrRNRrzBJuhIgQN5Agho4jPNTcpDcKIYsNim8GQLcBtcvYiLmhDL3Z1xc4j4OB8lXaCphEvPqsvMvRHP_pflhLOr2Yya1lgK7WpCUxSplx8zV4pWYpJDIazzgiwMbvA44tdQHoQM4bOEyMl4Yj0p1O3vBD2gXGucmBNLo5bjixVI96CzWhRwdwsMPkQrQtxYg95UMnOlD6CXWYTcVhVBQeDb9Kll4kyWkOQceEGIShJEZKCpiYSsfLhPzphT8EfrQfPtawPo8Nr_F8zGnZuC9WAbgPkUNpWZIw7VXX5QHRhu9eC_QI_JdQnzbTmy8f7EAzNS5LnedeXz2qZLAItPl9wnr_NqsAoNZxo9U46lcbyKoRmPJT86mzKM3oDzs""
+}",1
