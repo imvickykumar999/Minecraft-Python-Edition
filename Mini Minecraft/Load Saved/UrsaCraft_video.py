@@ -1,5 +1,11 @@
+
+import json
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
+
+path = "test.json"
+with open(path) as f:
+   obj = json.load(f)
 
 app = Ursina()
 grass_texture = load_texture('assets/grass_block.png')
@@ -16,6 +22,9 @@ window.exit_button.visible = False
 
 def update():
 	global block_pick
+
+	if player.y < -5:
+		player.y = 75 # jump off the boundry 
 
 	if held_keys['left mouse'] or held_keys['right mouse']:
 		hand.active()
@@ -42,7 +51,12 @@ class Voxel(Button):
 		if self.hovered:
 			if key == 'left mouse down':
 				punch_sound.play()
-				print(self.position + mouse.normal) # save Vec3 in file
+
+				save_new = tuple(self.position + mouse.normal)
+				obj["position"].append({"Vec3":save_new})
+
+				with open(path,"w+") as of:
+					json.dump(obj,of)
 
 				if block_pick == 1: voxel = Voxel(position = self.position + mouse.normal, texture = grass_texture)
 				if block_pick == 2: voxel = Voxel(position = self.position + mouse.normal, texture = stone_texture)
@@ -77,6 +91,11 @@ class Hand(Entity):
 
 	def passive(self):
 		self.position = Vec2(0.4,-0.6)
+
+
+for i in obj['position']:
+	save_new = Vec3(tuple(i['Vec3']))
+	Voxel(position = save_new)
 
 for z in range(20):
 	for x in range(20):
