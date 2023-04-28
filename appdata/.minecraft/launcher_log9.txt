@@ -1,0 +1,976 @@
+[Info: 2023-04-24 05:10:21.5777387: NetQueue.cpp(186)] NetQueue: Setting up.
+[Info: 2023-04-24 05:10:21.5803843: NetQueue.cpp(671)] NetQueue: worker thread started.
+[Info: 2023-04-24 05:10:21.5807052: mainWindows.cpp(81)] Running launcher bootstrap (version 1.2.4)
+[Error: 2023-04-24 05:10:21.8475020: localization.cpp(110)] No translation found for "Failed to initialize GDK, please make sure Xbox App and Gaming Services are up to date and running."
+[Info: 2023-04-24 05:10:21.8700445: NetQueue.cpp(186)] NetQueue: Setting up.
+[Info: 2023-04-24 05:10:21.8735805: NetQueue.cpp(671)] NetQueue: worker thread started.
+[Error: 2023-04-24 05:10:21.8775826: localization.cpp(110)] No translation found for "Failed to initialize GDK, please make sure Xbox App and Gaming Services are up to date and running."
+[Info: 2023-04-24 05:10:21.8776960: Common.cpp(32)] Native Launcher Version: 1.2.4
+[Info: 2023-04-24 05:10:21.8777822: Common.cpp(33)] Operating System: Windows 10 Home Single Language
+[Info: 2023-04-24 05:10:21.8780010: Common.cpp(34)] Application Data directory: C:\...\.minecraft
+[Info: 2023-04-24 05:10:21.8791175: Common.cpp(35)] Executable Path: /:\...\Minecraft.exe
+[Info: 2023-04-24 05:10:21.8792145: Common.cpp(36)] App Directory dir: C:\...\Local
+[Info: 2023-04-24 05:10:21.8792805: Common.cpp(37)] Game data directory: C:\...\.minecraft
+[Info: 2023-04-24 05:10:21.8793602: Common.cpp(38)] Launcher dir: C:\...\game
+[Info: 2023-04-24 05:10:21.8794291: Common.cpp(39)] Update dir: C:\...\update_files
+[Info: 2023-04-24 05:10:21.8795025: Common.cpp(40)] TmpDir dir: C:\...\MinecraftLauncher
+[Info: 2023-04-24 05:10:21.8930358: UpdateTools.cpp(118)] Using update preferences at path: C:\...\launcher_profiles.json
+[Warning: 2023-04-24 05:10:21.9066440: UpdateTools.cpp(41)] Failed to get clientToken from configuration, launcher updater will fall back to using stable versions instead of controlled experiment versions.
+[Warning: 2023-04-24 05:10:21.9067565: UpdateTools.cpp(84)] Unexpected update selection strategy: . Setting to: STABLE_VERSIONS
+[Warning: 2023-04-24 05:10:21.9068262: UpdateTools.cpp(97)] Unable to find 'channel' key in settings.
+[Info: 2023-04-24 05:10:21.9068917: UpdateTools.cpp(121)] Failed to read update preferences from C:\...\launcher_profiles.json
+[Info: 2023-04-24 05:10:21.9069738: UpdateTools.cpp(132)] Using update preferences at path: C:\...\launcher_settings.json
+[Warning: 2023-04-24 05:10:21.9080908: UpdateTools.cpp(84)] Unexpected update selection strategy: . Setting to: CONTROLLED_EXPERIMENT
+[Info: 2023-04-24 05:10:21.9081663: LauncherConfiguration.cpp(93)] Update preferences: strategy: 2, clientId: 1720392887, channel: release
+[Info: 2023-04-24 05:10:21.9349417: NetQueue.cpp(724)] NetQueue: No connection available for https://client.discovery.minecraft-services.net/api/v1.0/discovery/MinecraftPE/builds/1.18.12
+[Error: 2023-04-24 05:10:21.9351411: SentryAPI.cpp(153)] : franchiseservices::discovery_response: * Line 1, Column 1
+  Syntax error: value, object or array expected.
+
+[Info: 2023-04-24 05:10:21.9370804: NetQueue.cpp(724)] NetQueue: No connection available for https://sentry.io/api/2703928/store/
+[Error: 2023-04-24 05:10:21.9371276: FranchiseService.cpp(126)] Unable to get auth service URI for environment: 1
+[Error: 2023-04-24 05:10:21.9371876: SentryAPI.cpp(124)] 0 No network connection available
+[Warning: 2023-04-24 05:10:21.9372395: AzureUpdateTools.cpp(99)] Failed to get valid KeyMaker response: 5. Using fallback url.
+[Info: 2023-04-24 05:10:21.9376515: NetQueue.cpp(724)] NetQueue: No connection available for https://redstone-launcher.mojang.com/release/v2/products/launcher/f8ed2cc81a1e57977c3d5c57472cf6e978e1ff61/gamecore.json?
+[Info: 2023-04-24 05:10:21.9377370: NetQueue.cpp(724)] NetQueue: No connection available for https://redstone-piston-data.mojang.com/release/v2/products/launcher/f8ed2cc81a1e57977c3d5c57472cf6e978e1ff61/gamecore.json?
+[Error: 2023-04-24 05:10:21.9378620: AzureUpdateTools.cpp(170)] Couldn't get manifest data from URL: https://redstone-launcher.mojang.com/release/v2/products/launcher/f8ed2cc81a1e57977c3d5c57472cf6e978e1ff61/gamecore.json?
+[Info: 2023-04-24 05:10:21.9387817: NetQueue.cpp(724)] NetQueue: No connection available for https://sentry.io/api/2703928/store/
+[Info: 2023-04-24 05:10:21.9389755: StartLibrary.cpp(62)] Starting C:\...\launcher.dll
+[Error: 2023-04-24 05:10:21.9390071: SentryAPI.cpp(124)] 0 No network connection available
+[Info: 2023-04-24 05:10:22.1151194: StartLibrary.cpp(111)] Running launcher!
+[Info: 2023-04-24 05:10:22.1152441: StartLibrary.cpp(113)] Logging is open, passing it to Launcher Core.
+[Info: 2023-04-24 05:10:22.1178074: LauncherMain.cpp(112)] Initiated models
+[Info: 2023-04-24 05:10:22.1220864: LauncherMain.cpp(289)] Initiated app arguments
+[Info: 2023-04-24 05:10:22.1223963: LauncherMain.cpp(346)] Initiated directories
+[Info: 2023-04-24 05:10:22.1225898: LauncherMain.cpp(368)] Initialized network
+[Info: 2023-04-24 05:10:22.1226579: NetQueue.cpp(186)] NetQueue: Setting up.
+[Info: 2023-04-24 05:10:22.1234938: NetQueue.cpp(671)] NetQueue: worker thread started.
+[Info: 2023-04-24 05:10:22.1239252: LauncherMain.cpp(391)] Initialized Sentry
+[Info: 2023-04-24 05:10:22.1240427: LauncherMain.cpp(399)] workDir: %USERPROFILE%\AppData\Roaming\.minecraft
+[Info: 2023-04-24 05:10:22.1242449: LauncherMain.cpp(409)] appDir: %USERPROFILE%\AppData\Local\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local
+[Info: 2023-04-24 05:10:22.1381799: LauncherMain.cpp(435)] Launcher core version: 2.4.36 (3e0572ff47fea33e5e88dadf3a4843e1685964dc)
+[Info: 2023-04-24 05:10:22.1383269: LauncherMain.cpp(436)] Main process: true
+[Info: 2023-04-24 05:10:22.1385828: NetQueue.cpp(186)] NetQueue: Setting up.
+[Info: 2023-04-24 05:10:22.1393676: NetQueue.cpp(671)] NetQueue: worker thread started.
+[Info: 2023-04-24 05:10:22.1460942: NetQueue.cpp(724)] NetQueue: No connection available for https://www.xboxab.com/ab
+[Error: 2023-04-24 05:10:22.1462266: TreatmentTagFetcher.cpp(66)] Error while sending request to https://www.xboxab.com/ab with response code 0 and error string No network connection available
+[Info: 2023-04-24 05:10:22.3260275: LauncherController.cpp(537)] Constructing launcher controller with workDir: %USERPROFILE%\AppData\Roaming\.minecraft, isActive: 1
+[Info: 2023-04-24 05:10:22.3918610: NetQueue.cpp(186)] NetQueue: Setting up.
+[Info: 2023-04-24 05:10:22.3927540: NetQueue.cpp(671)] NetQueue: worker thread started.
+[Info: 2023-04-24 05:10:22.4093968: XalStorage.cpp(520)] Parsing content from MSA File
+[Error: 2023-04-24 05:10:22.4293838: PersistentReflectedStruct.h(44)] Data version 3 is greater than current version 0 but we don't support downgrading.
+[Warning: 2023-04-24 05:10:22.4295287: PreferencesManager.cpp(568)] Unable to load profile settings.
+[Info: 2023-04-24 05:10:22.4317512: PreferencesManager.cpp(116)] Removed %USERPROFILE%\AppData\Roaming\.minecraft\launcher_profiles_microsoft_store.json
+[Info: 2023-04-24 05:10:22.4505593: GameVersionManager.cpp(270)] Reading local cache of the Mojang versions manifest (version_manifest_v2.json)...
+[Info: 2023-04-24 05:10:22.5009328: GameVersionManager.cpp(310)] Looking for installed versions in %USERPROFILE%\AppData\Roaming\.minecraft\versions
+[Info: 2023-04-24 05:10:22.5241540: GameVersionManager.cpp(351)] Parsing version 1.19.4
+[Info: 2023-04-24 05:10:22.5513266: GameVersionManager.cpp(351)] Parsing version 23w12a
+[Info: 2023-04-24 05:10:22.5787234: GameVersionManager.cpp(351)] Parsing version 23w13a
+[Info: 2023-04-24 05:10:22.6062824: GameVersionManager.cpp(351)] Parsing version 23w13a_or_b
+[Info: 2023-04-24 05:10:22.6356299: GameVersionManager.cpp(351)] Parsing version 23w14a
+[Info: 2023-04-24 05:10:22.6655987: GameVersionManager.cpp(351)] Parsing version 23w16a
+[Info: 2023-04-24 05:10:22.6750563: NetQueue.cpp(724)] NetQueue: No connection available for https://launchermeta.mojang.com/mc/game/version_manifest_v2.json
+[Info: 2023-04-24 05:10:22.6751947: NetQueue.cpp(724)] NetQueue: No connection available for https://piston-meta.mojang.com/mc/game/version_manifest_v2.json
+[Info: 2023-04-24 05:10:22.6753790: NetQueue.cpp(724)] NetQueue: No connection available for https://piston-meta.mojang.com/mc/game/version_manifest_v2.json
+[Info: 2023-04-24 05:10:22.6754328: NetQueue.cpp(724)] NetQueue: No connection available for https://piston-meta.mojang.com/mc/game/version_manifest_v2.json
+[Error: 2023-04-24 05:10:22.6755575: GameVersionManager.cpp(430)] Failed to get available versions manifest from https://piston-meta.mojang.com/mc/game/version_manifest_v2.json
+[Info: 2023-04-24 05:10:22.6765501: NetQueue.cpp(724)] NetQueue: No connection available for https://sentry.io/api/2703928/store/
+[Error: 2023-04-24 05:10:22.6766543: SentryAPI.cpp(124)] 0 No network connection available
+[Info: 2023-04-24 05:10:22.9290853: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:10:22.9295207: CoreFileUtils.cpp(12)] File %USERPROFILE%\AppData\Roaming\.minecraft\launcher_custom_skins.json doesn't exist. Not loading.
+[Info: 2023-04-24 05:10:22.9296367: SkinManager.cpp(416)] Unable to load skins file. Checking for old file version...
+[Info: 2023-04-24 05:10:22.9300871: SkinManager.cpp(425)] Failed to read deprecated skins file: %USERPROFILE%\AppData\Roaming\.minecraft\launcher_skins.json Errno such file or directory
+[Info: 2023-04-24 05:10:22.9593226: CefUI.cpp(123)] Web cache is compatible with current CEF version.
+[Info: 2023-04-24 05:10:22.9598702: CefUI.cpp(145)] Web cache path: %USERPROFILE%\AppData\Roaming\.minecraft\webcache2
+[Info: 2023-04-24 05:10:23.0195864: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:10:23.2439356: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:10:23.3233891: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:10:23.3973034: LauncherAppBrowser.cpp(83)] Will launch a Chromium subprocess with command line string: "C:\Program Files\WindowsApps\Microsoft.4297127D64EC6_1.2.4.0_x64__8wekyb3d8bbwe\Minecraft.exe" --type=gpu-process --no-sandbox --log-severity=info --lang=en-US --user-data-dir="%USERPROFILE%\AppData\Local\CEF\User Data" --launcherui --workdir="<WORKDIR>\.minecraft" /prefetch:2
+[Info: 2023-04-24 05:10:23.5483976: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:10:23.5816479: LauncherAppBrowser.cpp(64)] Work dir is %USERPROFILE%\AppData\Roaming\.minecraft
+[Info: 2023-04-24 05:10:23.5852967: main_context.cpp(137)] CEF initialized successfully.
+[Info: 2023-04-24 05:10:23.5854821: main_context.cpp(139)] CEF version: 99.2.14+g3f796b8+chromium-99.0.4844.84
+[Info: 2023-04-24 05:10:23.5873620: UserIdentity.cpp(156)] Starting auto sign in
+[Info: 2023-04-24 05:10:23.6575500: root_window_manager.cpp(57)] Main window has been opened: 0000022585461B20
+[Info: 2023-04-24 05:10:23.6890379: LauncherAppBrowser.cpp(83)] Will launch a Chromium subprocess with command line string: "C:\Program Files\WindowsApps\Microsoft.4297127D64EC6_1.2.4.0_x64__8wekyb3d8bbwe\Minecraft.exe" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --no-sandbox --log-severity=info --lang=en-US --user-data-dir="%USERPROFILE%\AppData\Local\CEF\User Data" --launcherui --workdir="<WORKDIR>\.minecraft" /prefetch:8
+[Info: 2023-04-24 05:10:23.7036678: LauncherAppBrowser.cpp(83)] Will launch a Chromium subprocess with command line string: "C:\Program Files\WindowsApps\Microsoft.4297127D64EC6_1.2.4.0_x64__8wekyb3d8bbwe\Minecraft.exe" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --log-severity=info --lang=en-US --user-data-dir="%USERPROFILE%\AppData\Local\CEF\User Data" --launcherui --workdir="<WORKDIR>\.minecraft" /prefetch:8
+[Info: 2023-04-24 05:10:23.7633770: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:10:23.8854678: LauncherAppBrowser.cpp(83)] Will launch a Chromium subprocess with command line string: "C:\Program Files\WindowsApps\Microsoft.4297127D64EC6_1.2.4.0_x64__8wekyb3d8bbwe\Minecraft.exe" --type=renderer --log-severity=info --user-data-dir="%USERPROFILE%\AppData\Local\CEF\User Data" --launcherui --workdir="<WORKDIR>\.minecraft"
+[Info: 2023-04-24 05:10:23.8871054: LauncherAppBrowser.cpp(83)] Will launch a Chromium subprocess with command line string: "C:\Program Files\WindowsApps\Microsoft.4297127D64EC6_1.2.4.0_x64__8wekyb3d8bbwe\Minecraft.exe" --type=renderer --log-severity=info --user-data-dir="%USERPROFILE%\AppData\Local\CEF\User Data" --launcherui --workdir="<WORKDIR>\.minecraft"
+[Info: 2023-04-24 05:10:23.9854004: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:10:24.2077794: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:10:24.4340870: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:10:24.6131204: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:10:24.8241418: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:10:24.8966623: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:10:25.1237840: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:10:25.2187611: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:10:25.4466414: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:10:25.5556525: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:10:25.7738696: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:10:25.8409713: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:10:26.0602802: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:10:26.1174636: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:10:24.7011268: LauncherMain.cpp(112)] Initiated models
+[Info: 2023-04-24 05:10:24.7043622: LauncherController.cpp(537)] Constructing launcher controller with workDir: C:\...\.minecraft, isActive: 0
+[Info: 2023-04-24 05:10:24.7569164: LauncherAppRenderer.cpp(173)] Javascript bridge extended in OnWebKitInitialized.
+[Info: 2023-04-24 05:10:24.8657483: LauncherAppRenderer.cpp(321)] OnContextCreated: main frame. Url=mojang://launcher/index.html browser id=1
+[Info: 2023-04-24 05:10:24.8658617: LauncherAppRenderer.cpp(333)] OnContextCreated: Create JS bindings in main browser.
+[Info: 2023-04-24 05:10:24.8882235: LauncherAppRenderer.cpp(520)] Javascript bridge extended in OnContextCreated.
+[Info: 2023-04-24 05:10:27.0743606: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameVersions");
+[Info: 2023-04-24 05:10:27.0815179: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:27.0833483: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.versions");
+[Info: 2023-04-24 05:10:27.0880770: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.credits");
+[Info: 2023-04-24 05:10:27.0896135: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.constants");
+[Info: 2023-04-24 05:10:27.0922736: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.configurationData");
+[Info: 2023-04-24 05:10:27.0942016: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.launcherSettings");
+[Info: 2023-04-24 05:10:27.0958930: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.systemInfo");
+[Info: 2023-04-24 05:10:27.1005322: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.productInfo");
+[Info: 2023-04-24 05:10:27.1581847: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.skins");
+[Info: 2023-04-24 05:10:27.1602816: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.volumes");
+[Info: 2023-04-24 05:10:27.1615996: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.treatmentTags");
+[Info: 2023-04-24 05:10:27.1663597: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:27.1717581: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.productInfo");
+[Info: 2023-04-24 05:10:27.1774354: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.modelInfo");
+[Info: 2023-04-24 05:10:27.1787030: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:27.4914564: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameVersions");
+[Info: 2023-04-24 05:10:27.4980623: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:27.5000678: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.versions");
+[Info: 2023-04-24 05:10:27.5052880: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.credits");
+[Info: 2023-04-24 05:10:27.5087802: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.constants");
+[Info: 2023-04-24 05:10:27.5120223: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.configurationData");
+[Info: 2023-04-24 05:10:27.5130470: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.users");
+[Info: 2023-04-24 05:10:27.5141211: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.launcherSettings");
+[Info: 2023-04-24 05:10:27.5156706: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.systemInfo");
+[Info: 2023-04-24 05:10:27.5197205: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.productInfo");
+[Info: 2023-04-24 05:10:27.5502904: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.skins");
+[Info: 2023-04-24 05:10:27.5523938: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.volumes");
+[Info: 2023-04-24 05:10:27.5536265: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.msiPatch");
+[Info: 2023-04-24 05:10:27.5549021: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.treatmentTags");
+[Info: 2023-04-24 05:10:27.5568834: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:27.5609577: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.productInfo");
+[Info: 2023-04-24 05:10:27.5621159: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:27.5664394: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.productInfo");
+[Info: 2023-04-24 05:10:27.5682835: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:27.5770981: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.productInfo");
+[Info: 2023-04-24 05:10:27.5800293: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:27.5861484: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.productInfo");
+[Info: 2023-04-24 05:10:27.5873470: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:27.5905334: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.productInfo");
+[Info: 2023-04-24 05:10:28.3321906: ControllerInterface.cpp(106)] Running method getStore
+[Info: 2023-04-24 05:10:28.3329796: ControllerInterface.cpp(106)] Running method getContentfulEnvironment
+[Info: 2023-04-24 05:10:28.3344473: ControllerInterface.cpp(106)] Running method getStore
+[Info: 2023-04-24 05:10:28.3462731: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:28.3566764: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:28.3803992: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/promotionalCalendars.json
+[Info: 2023-04-24 05:10:28.4903786: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:28.4909023: ControllerInterface.cpp(106)] Running method checkForUpdates
+[Info: 2023-04-24 05:10:28.4910853: LauncherController.cpp(955)] Checking KeyMaker for updates...
+[Info: 2023-04-24 05:10:28.4911388: KeyMakerCache.cpp(219)] Initializing KeyMaker response cache...
+[Info: 2023-04-24 05:10:28.4916184: client_handler.cpp(424)] Handling PostTelemetryEvent message
+[Info: 2023-04-24 05:10:28.4939245: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:28.4950538: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:28.4961022: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:28.4981493: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:28.5006589: ControllerInterface.cpp(106)] Running method getContentfulEnvironment
+[Info: 2023-04-24 05:10:28.5032765: ControllerInterface.cpp(106)] Running method getAccountData
+[Info: 2023-04-24 05:10:28.6727120: ControllerInterface.cpp(106)] Running method gamecoreLauncherInstallState
+[Info: 2023-04-24 05:10:28.6728495: LauncherController.cpp(1398)] Windows Store Launcher is NotSupported
+[Info: 2023-04-24 05:10:28.6730721: ControllerInterface.cpp(106)] Running method getContentfulEnvironment
+[Info: 2023-04-24 05:10:28.6739041: ControllerInterface.cpp(106)] Running method getContentfulEnvironment
+[Info: 2023-04-24 05:10:28.7351085: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/games.json
+[Info: 2023-04-24 05:10:28.7392081: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/launcherPatchNotes_v2.json
+[Info: 2023-04-24 05:10:28.7403714: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/alertMessaging.json
+[Warning: 2023-04-24 05:10:28.7699794: app.507545c2.bundle.js(2)] OnConsoleMessage: TypeError: Failed to fetch
+[Warning: 2023-04-24 05:10:28.7709404: app.507545c2.bundle.js(2)] OnConsoleMessage: TypeError: Failed to fetch
+[Info: 2023-04-24 05:10:38.4764153: XalPlatform_gamecore.cpp(85)] Store State : NotMatched - Account detected
+[Info: 2023-04-24 05:10:38.4776431: UserIdentity.cpp(222)] Sign-in success - cleared token
+[Info: 2023-04-24 05:10:38.4784321: UnifiedMSAAccounts.cpp(170)] Successfully Auto Signed in
+[Info: 2023-04-24 05:10:38.4786351: UserIdentity.cpp(911)] Retrieving token due to [first]
+[Info: 2023-04-24 05:10:38.5006160: UserIdentity.cpp(521)] Got a network status: 1
+[Info: 2023-04-24 05:10:38.5007936: UserIdentity.cpp(528)] Network offline [1] which is likely the cause for token failures
+[Info: 2023-04-24 05:10:38.5009644: UserIdentity.cpp(915)] Attempted to retrieved token - [normal] - [null] - -1994174202
+[Info: 2023-04-24 05:10:38.5011351: UserIdentity.cpp(966)] Token not used due to [null][failed network]
+[Info: 2023-04-24 05:10:38.5012660: UserIdentity.cpp(980)] Current token [with-refresh:true] - [null]
+[Info: 2023-04-24 05:10:38.5013787: UnifiedMSAAccounts.cpp(351)] Added/Updated account : No Token
+[Info: 2023-04-24 05:10:38.5015007: UserIdentity.cpp(479)] Got gamer tag - [0][not empty]
+[Info: 2023-04-24 05:10:38.5047271: UserIdentity.cpp(521)] Got a network status: 1
+[Info: 2023-04-24 05:10:38.5063149: UserIdentity.cpp(528)] Network offline [1] which is likely the cause for token failures
+[Info: 2023-04-24 05:10:38.5065893: UserIdentity.cpp(1001)] We are not online. Not getting gamer pic
+[Info: 2023-04-24 05:10:38.5137114: UnifiedMSAAccounts.cpp(361)] Has valid token, going to fetch profile
+[Info: 2023-04-24 05:10:38.5154700: NetQueue.cpp(724)] NetQueue: No connection available for https://api.minecraftservices.com/minecraft/profile
+[Error: 2023-04-24 05:10:38.5156702: Common_p.h(174)] Error while sending request to https://api.minecraftservices.com/minecraft/profile
+[Error: 2023-04-24 05:10:38.5157968: Common_p.h(205)] Unexpected error while making GET request to https://api.minecraftservices.com/minecraft/profile: Error: No network connection available
+[Error: 2023-04-24 05:10:38.5160212: UnifiedMSAAccounts.cpp(640)] Failed to fetch Minecraft profile. Service error: 1
+[Info: 2023-04-24 05:10:38.5191767: NetQueue.cpp(724)] NetQueue: No connection available for https://sentry.io/api/2703928/store/
+[Error: 2023-04-24 05:10:38.5192826: SentryAPI.cpp(124)] 0 No network connection available
+[Error: 2023-04-24 05:10:38.5222680: UnifiedMSAAccounts.cpp(376)] Failed to get profile for MSA account 2535467605691821. Error: Profile fetch failed
+[Info: 2023-04-24 05:10:38.5224276: NetQueue.cpp(724)] NetQueue: No connection available for https://sentry.io/api/2703928/store/
+[Error: 2023-04-24 05:10:38.5225448: SentryAPI.cpp(124)] 0 No network connection available
+[Info: 2023-04-24 05:10:38.5235280: UserIdentity.cpp(521)] Got a network status: 1
+[Info: 2023-04-24 05:10:38.5238843: UserIdentity.cpp(528)] Network offline [1] which is likely the cause for token failures
+[Info: 2023-04-24 05:10:38.5241955: UnifiedMSAAccounts.cpp(655)] Starting to get entitlements[force:true] for account
+[Info: 2023-04-24 05:10:38.8290178: UnifiedAccounts.cpp(325)] Internet state in main process: online=0
+[Info: 2023-04-24 05:10:38.8298632: ControllerInterface.cpp(106)] Running method getAvailableVolumeSpace
+[Info: 2023-04-24 05:10:38.8322229: ControllerInterface.cpp(106)] Running method onInternetStateChange
+[Info: 2023-04-24 05:10:38.8644387: ControllerInterface.cpp(106)] Running method refreshStorePrices
+[Info: 2023-04-24 05:10:38.8727616: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:38.9083565: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.productInfo");
+[Info: 2023-04-24 05:10:38.9105696: NetQueue.cpp(724)] NetQueue: No connection available for https://client.discovery.minecraft-services.net/api/v1.0/discovery/MinecraftPE/builds/1.18.12
+[Error: 2023-04-24 05:10:38.9109374: SentryAPI.cpp(153)] : franchiseservices::discovery_response: * Line 1, Column 1
+  Syntax error: value, object or array expected.
+
+[Info: 2023-04-24 05:10:38.9142085: NetQueue.cpp(724)] NetQueue: No connection available for https://sentry.io/api/2703928/store/
+[Error: 2023-04-24 05:10:38.9142456: FranchiseService.cpp(126)] Unable to get auth service URI for environment: 1
+[Error: 2023-04-24 05:10:38.9143723: SentryAPI.cpp(124)] 0 No network connection available
+[Warning: 2023-04-24 05:10:38.9145436: UpdateCheck.cpp(380)] Failed to get valid KeyMaker response: 5. Using fallback url.
+[Info: 2023-04-24 05:10:38.9151921: NetQueue.cpp(724)] NetQueue: No connection available for https://redstone-launcher.mojang.com/release/v2/products/launcher/f8ed2cc81a1e57977c3d5c57472cf6e978e1ff61/gamecore.json?
+[Error: 2023-04-24 05:10:40.9681869: EntitlementsManager.cpp(30)] Microsoft Store Unknown Error-2147023579
+[Error: 2023-04-24 05:10:40.9682340: ProductManager.cpp(737)] Error while retrieving pricing information: -2147012889
+[Info: 2023-04-24 05:10:40.9710912: NetQueue.cpp(724)] NetQueue: No connection available for https://sentry.io/api/2703928/store/
+[Error: 2023-04-24 05:10:40.9711820: SentryAPI.cpp(124)] 0 No network connection available
+[Error: 2023-04-24 05:10:40.9799285: index.html(0)] OnConsoleMessage: Uncaught (in promise) LauncherError: Failure during store query
+[Error: 2023-04-24 05:10:41.1450942: EntitlementsManager.cpp(30)] Microsoft Store Unknown Error-2147023665
+[Info: 2023-04-24 05:10:41.1462113: NetQueue.cpp(724)] NetQueue: No connection available for https://api.minecraftservices.com/entitlements/license?requestId=cc9b3e0f-e7cf-4c98-9006-eefb2cf8cfaa
+[Error: 2023-04-24 05:10:41.1464969: Common_p.h(174)] Error while sending request to https://api.minecraftservices.com/entitlements/license?requestId=cc9b3e0f-e7cf-4c98-9006-eefb2cf8cfaa
+[Error: 2023-04-24 05:10:41.1466146: Common_p.h(205)] Unexpected error while making GET request to https://api.minecraftservices.com/entitlements/license?requestId=cc9b3e0f-e7cf-4c98-9006-eefb2cf8cfaa: Error: No network connection available
+[Error: 2023-04-24 05:10:41.1467769: EntitlementsManager.cpp(155)] Failed to get entitlements from the services API... Error: 1
+[Info: 2023-04-24 05:10:41.1494612: NetQueue.cpp(724)] NetQueue: No connection available for https://sentry.io/api/2703928/store/
+[Error: 2023-04-24 05:10:41.1496308: SentryAPI.cpp(124)] 0 No network connection available
+[Info: 2023-04-24 05:10:41.1672788: EntitlementsManager.cpp(242)] Checking [product:game_dungeons][cur:null] local store collection
+[Info: 2023-04-24 05:10:41.1676002: EntitlementsManager.cpp(242)] Checking [product:game_minecraft][cur:null] local store collection
+[Info: 2023-04-24 05:10:41.1677504: EntitlementsManager.cpp(242)] Checking [product:game_legends][cur:null] local store collection
+[Info: 2023-04-24 05:10:41.1679011: EntitlementsManager.cpp(242)] Checking [product:game_minecraft_bedrock][cur:TRIAL] local store collection
+[Error: 2023-04-24 05:10:42.2040251: EntitlementsManager.cpp(317)] XStore Check Failed [product:game_dungeons][9P8MK4NC0LJB] - 0x80072ee7
+[Info: 2023-04-24 05:10:42.2042023: EntitlementsManager.cpp(371)] Entitlement license check for [product:game_dungeons][prev:null] ended with [final:null]
+[Error: 2023-04-24 05:10:42.2042956: EntitlementsManager.cpp(317)] XStore Check Failed [product:game_legends][9N98Z825TNFW] - 0x80072ee7
+[Info: 2023-04-24 05:10:42.2043663: EntitlementsManager.cpp(371)] Entitlement license check for [product:game_legends][prev:null] ended with [final:null]
+[Error: 2023-04-24 05:10:42.2044342: EntitlementsManager.cpp(317)] XStore Check Failed [product:game_minecraft][9PJ8266BHFWN] - 0x80072ee7
+[Info: 2023-04-24 05:10:42.2046609: EntitlementsManager.cpp(371)] Entitlement license check for [product:game_minecraft][prev:null] ended with [final:null]
+[Error: 2023-04-24 05:10:42.2047452: EntitlementsManager.cpp(317)] XStore Check Failed [product:game_minecraft_bedrock][9NBLGGH2JHXJ] - 0x80072ee7
+[Info: 2023-04-24 05:10:42.2048155: EntitlementsManager.cpp(371)] Entitlement license check for [product:game_minecraft_bedrock][prev:TRIAL] ended with [final:TRIAL]
+[Warning: 2023-04-24 05:10:42.5705393: EntitlementsManager.cpp(521)] XStore Check Failed for [CFQ7TTC0K6L8,CFQ7TTC0KGQ8,CFQ7TTC0KHS0,9PJ8266BHFWN,9NBLGGH2JHXJ] - [0x80072ee7]
+[Info: 2023-04-24 05:10:42.5707030: EntitlementsManager.cpp(529)] Entitlement collection check for [product:game_minecraft][prev:null] ended with [final:null]
+[Error: 2023-04-24 05:10:42.5707905: EntitlementsManager.cpp(612)] XStore failure
+[Info: 2023-04-24 05:10:42.5736141: NetQueue.cpp(724)] NetQueue: No connection available for https://sentry.io/api/2703928/store/
+[Error: 2023-04-24 05:10:42.5737162: SentryAPI.cpp(124)] 0 No network connection available
+[Info: 2023-04-24 05:10:42.8252626: UnifiedMSAAccounts.cpp(577)] Broadcasting change due to new [forced:1] Entitlements for eb79cecb5121417690150c97bcf884d3
+[Info: 2023-04-24 05:10:42.8289557: ControllerInterface.cpp(106)] Running method getAccountData
+[Info: 2023-04-24 05:10:42.8369934: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/
+[Info: 2023-04-24 05:10:42.9608446: ControllerInterface.cpp(106)] Running method getContentfulEnvironment
+[Info: 2023-04-24 05:10:42.9632280: ControllerInterface.cpp(106)] Running method getContentfulEnvironment
+[Info: 2023-04-24 05:10:42.9652838: ControllerInterface.cpp(106)] Running method getContentfulEnvironment
+[Info: 2023-04-24 05:10:42.9687121: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:43.0802241: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/news.json
+[Info: 2023-04-24 05:10:43.2756302: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/highlightDialogs.json
+[Info: 2023-04-24 05:10:43.2769783: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/voteEvent.json
+[Info: 2023-04-24 05:10:43.4721337: ControllerInterface.cpp(106)] Running method setStore
+[Error: 2023-04-24 05:10:43.5058275: app.507545c2.bundle.js(2)] OnConsoleMessage: TypeError: Failed to fetch
+[Info: 2023-04-24 05:10:43.6787708: LauncherAppBrowser.cpp(83)] Will launch a Chromium subprocess with command line string: "C:\Program Files\WindowsApps\Microsoft.4297127D64EC6_1.2.4.0_x64__8wekyb3d8bbwe\Minecraft.exe" --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=audio --no-sandbox --log-severity=info --lang=en-US --user-data-dir="%USERPROFILE%\AppData\Local\CEF\User Data" --launcherui --workdir="<WORKDIR>\.minecraft" /prefetch:8
+[Info: 2023-04-24 05:10:44.0353299: ControllerInterface.cpp(106)] Running method getContentfulEnvironment
+[Info: 2023-04-24 05:10:44.0387190: ControllerInterface.cpp(106)] Running method getContentfulEnvironment
+[Info: 2023-04-24 05:10:44.0403986: client_handler.cpp(424)] Handling PostTelemetryEvent message
+[Info: 2023-04-24 05:10:44.2613491: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/customCallouts.json
+[Info: 2023-04-24 05:10:44.4067019: NetQueue.cpp(724)] NetQueue: No connection available for https://launchercontent.mojang.com/news.json
+[Info: 2023-04-24 05:10:44.7322107: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:45.9813570: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:45.9827958: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:45.9842772: ControllerInterface.cpp(106)] Running method setStore
+[Info: 2023-04-24 05:10:46.0296951: ControllerInterface.cpp(106)] Running method downloadConfiguration
+[Error: 2023-04-24 05:10:46.0316590: MinecraftJavaProductInstance.cpp(775)] Unable to create running context for: c2b1df038e77cd59a2d880c57106e7fa
+[Info: 2023-04-24 05:10:46.0326938: LauncherController.cpp(800)] First attempt to launch failed. Attempting to install and then launch again...
+[Info: 2023-04-24 05:10:46.0350254: GameVersionManager.cpp(782)] resolveVersionID: Resolved latest-release:latest-release to 1.19.4
+[Info: 2023-04-24 05:10:46.0352158: GameVersionManager.cpp(516)] Request version details for: 1.19.4
+[Info: 2023-04-24 05:10:46.0530840: GameVersionManager.cpp(782)] resolveVersionID: Resolved latest-release:latest-release to 1.19.4
+[Warning: 2023-04-24 05:10:46.0587839: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: com.mojang:text2speech
+[Warning: 2023-04-24 05:10:46.0592565: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: com.mojang:text2speech
+[Warning: 2023-04-24 05:10:46.0608645: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: io.netty:netty-transport-native-epoll
+[Warning: 2023-04-24 05:10:46.0633340: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:10:46.0642536: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:10:46.0656853: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:10:46.0660006: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:10:46.0662096: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:10:46.0665758: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:10:46.0668023: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:10:46.0670356: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:10:46.0672376: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:10:46.0674694: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:10:46.0677822: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:10:46.0679889: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:10:46.0682077: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:10:46.0684431: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:10:46.0686644: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:10:46.0690041: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:10:46.0692092: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:10:46.0695315: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:10:46.0697567: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:10:46.0699808: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:10:46.0707857: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:10:46.0709964: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:10:46.0711875: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:10:46.0713876: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:10:46.0715961: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:10:46.0719305: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:10:46.0721781: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:10:46.0724150: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:10:46.0726173: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:10:46.0729806: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:10:46.0742372: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Warning: 2023-04-24 05:10:46.0745099: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Warning: 2023-04-24 05:10:46.0747339: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Warning: 2023-04-24 05:10:46.0749252: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Warning: 2023-04-24 05:10:46.0751693: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Info: 2023-04-24 05:10:46.1047200: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Info Preparing to launch minecraft client for 1.19.4
+[Info: 2023-04-24 05:10:46.1061475: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Debug Created game directory <WORKDIR>\.minecraft
+[Info: 2023-04-24 05:10:46.1480060: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:46.1540931: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Debug Prepared asset index
+[Info: 2023-04-24 05:10:46.3514301: NetQueue.cpp(724)] NetQueue: No connection available for https://launchermeta.mojang.com/v1/products/java-runtime/2ec0cc96c44e5a76b9c8b7c39df7210883d12871/all.json
+[Info: 2023-04-24 05:10:46.3517383: NetQueue.cpp(724)] NetQueue: No connection available for https://piston-meta.mojang.com/v1/products/java-runtime/2ec0cc96c44e5a76b9c8b7c39df7210883d12871/all.json
+[Error: 2023-04-24 05:10:46.3518759: ManifestRequests.cpp(39)] Could not download data from - https://launchermeta.mojang.com/v1/products/java-runtime/2ec0cc96c44e5a76b9c8b7c39df7210883d12871/all.json
+[Error: 2023-04-24 05:10:46.3520664: ManifestRequests.cpp(61)] Failed to download all manifest at https://launchermeta.mojang.com/v1/products/java-runtime/2ec0cc96c44e5a76b9c8b7c39df7210883d12871/all.json
+[Info: 2023-04-24 05:10:46.3578425: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Debug Have 3601 total files to check or download
+[Info: 2023-04-24 05:10:46.6544830: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameVersions");
+[Info: 2023-04-24 05:10:46.6850040: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:46.7417727: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:46.7556898: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:10:46.7579449: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:50.7566343: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:52.6108968: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:54.2161184: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:55.4592011: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:56.9162294: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:57.9207754: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:58.9581457: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:10:59.9725933: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:01.0109639: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:01.8200899: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:02.8595606: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:03.6781730: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:04.5028158: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:05.3110427: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:05.9267600: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:06.7565938: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:07.7778448: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:08.4102412: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:09.4238978: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:10.2576426: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:11.0560046: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:12.0701068: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:12.9145506: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:13.9142357: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:14.5524717: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:15.3779191: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:16.1687414: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:17.0102375: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:17.8098454: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:18.6632703: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:19.4525449: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:20.2769827: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:21.1036890: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:21.9638719: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:22.3734292: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:22.7863550: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:23.1945933: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:23.4015144: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:23.8122148: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:24.0181150: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:24.4314811: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:24.8424835: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:25.2522452: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:25.4557380: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:25.6631677: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:26.0742298: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:26.2889391: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:26.6891768: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:26.8947371: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:27.3053509: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:27.5134431: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:27.9179205: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:28.3390305: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:28.5366903: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:28.9483817: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:29.1531936: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:29.5610811: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:29.7658430: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:30.1724387: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:30.3881583: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:30.7963051: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:30.9961507: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:31.4045550: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:31.6126815: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:32.0240116: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:32.2375780: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:32.4417686: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:32.8495220: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:33.0534534: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:33.4663523: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:33.6699007: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:34.0882654: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:34.4960880: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:34.7010205: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:35.1118518: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:35.3186263: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:35.7371180: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:35.9389961: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:36.3423410: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:36.5482747: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:36.9604631: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:37.1639781: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:37.5738000: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:37.7870190: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:38.1916727: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:38.6046312: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:38.8100296: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:39.2202481: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:39.4263787: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:39.6399464: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:40.0456169: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:40.4567521: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:40.6649205: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:41.0759585: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:42.1033993: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:43.1349046: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:43.5409171: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:43.9530169: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:44.1560794: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:44.3488451: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Info Starting!
+[Info: 2023-04-24 05:11:44.3491011: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Info Minecraft client 1.19.4 is ready to start.
+[Info: 2023-04-24 05:11:44.3491545: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Debug Nothing to download!
+[Info: 2023-04-24 05:11:44.3491820: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Debug Nothing to extract!
+[Info: 2023-04-24 05:11:44.3492024: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Info Using default game log configuration client-1.12.xml (outputs XML)
+[Info: 2023-04-24 05:11:44.3494843: MinecraftJavaLoggingContext.cpp(267)] Destroying logging context!
+[Info: 2023-04-24 05:11:44.3504587: GameVersionManager.cpp(782)] resolveVersionID: Resolved latest-release:latest-release to 1.19.4
+[Warning: 2023-04-24 05:11:44.3509495: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: com.mojang:text2speech
+[Warning: 2023-04-24 05:11:44.3510136: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: com.mojang:text2speech
+[Warning: 2023-04-24 05:11:44.3514692: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: io.netty:netty-transport-native-epoll
+[Info: 2023-04-24 05:11:44.3514461: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Warning: 2023-04-24 05:11:44.3519728: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:11:44.3520233: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:11:44.3521162: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:11:44.3521700: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:11:44.3522302: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-glfw
+[Warning: 2023-04-24 05:11:44.3523536: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:11:44.3524730: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:11:44.3525856: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:11:44.3526805: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:11:44.3527653: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-jemalloc
+[Warning: 2023-04-24 05:11:44.3529702: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:11:44.3530689: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:11:44.3531661: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:11:44.3532506: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:11:44.3533317: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-openal
+[Warning: 2023-04-24 05:11:44.3534529: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:11:44.3535332: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:11:44.3536270: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:11:44.3537139: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:11:44.3538103: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-opengl
+[Warning: 2023-04-24 05:11:44.3542047: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:11:44.3543325: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:11:44.3544248: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:11:44.3545075: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:11:44.3545871: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-stb
+[Warning: 2023-04-24 05:11:44.3546844: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:11:44.3547419: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:11:44.3548099: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:11:44.3548737: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:11:44.3549338: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl-tinyfd
+[Warning: 2023-04-24 05:11:44.3550396: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Warning: 2023-04-24 05:11:44.3551071: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Warning: 2023-04-24 05:11:44.3551687: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Warning: 2023-04-24 05:11:44.3552375: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Warning: 2023-04-24 05:11:44.3552974: JavaLaunchConfiguration.cpp(386)] Detected duplicate libraries in version file: org.lwjgl:lwjgl
+[Info: 2023-04-24 05:11:44.3575021: JavaLaunchConfiguration.cpp(214)] Java argument:-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+[Info: 2023-04-24 05:11:44.3575815: JavaLaunchConfiguration.cpp(214)] Java argument:-Dos.name=Windows 10
+[Info: 2023-04-24 05:11:44.3576001: JavaLaunchConfiguration.cpp(214)] Java argument:-Dos.version=10.0
+[Info: 2023-04-24 05:11:44.3576151: JavaLaunchConfiguration.cpp(214)] Java argument:-Xss1M
+[Info: 2023-04-24 05:11:44.3576316: JavaLaunchConfiguration.cpp(214)] Java argument:-Djava.library.path=<WORKDIR>\.minecraft\bin\44685878b69bb36a6fb05390c06c8b0243d34f57
+[Info: 2023-04-24 05:11:44.3576490: JavaLaunchConfiguration.cpp(214)] Java argument:-Dminecraft.launcher.brand=minecraft-launcher
+[Info: 2023-04-24 05:11:44.3576671: JavaLaunchConfiguration.cpp(214)] Java argument:-Dminecraft.launcher.version=2.4.36
+[Info: 2023-04-24 05:11:44.3576813: JavaLaunchConfiguration.cpp(214)] Java argument:-cp
+[Info: 2023-04-24 05:11:44.3577049: JavaLaunchConfiguration.cpp(214)] Java argument:<WORKDIR>\.minecraft\libraries\com\github\oshi\oshi-core\6.2.2\oshi-core-6.2.2.jar;<WORKDIR>\.minecraft\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar;<WORKDIR>\.minecraft\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;<WORKDIR>\.minecraft\libraries\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;<WORKDIR>\.minecraft\libraries\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;<WORKDIR>\.minecraft\libraries\com\mojang\authlib\3.18.38\authlib-3.18.38.jar;<WORKDIR>\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar;<WORKDIR>\.minecraft\libraries\com\mojang\brigadier\1.0.18\brigadier-1.0.18.jar;<WORKDIR>\.minecraft\libraries\com\mojang\datafixerupper\6.0.6\datafixerupper-6.0.6.jar;<WORKDIR>\.minecraft\libraries\com\mojang\logging\1.1.1\logging-1.1.1.jar;<WORKDIR>\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar;<WORKDIR>\.minecraft\libraries\com\mojang\text2speech\1.13.9\text2speech-1.13.9.jar;<WORKDIR>\.minecraft\libraries\com\mojang\text2speech\1.13.9\text2speech-1.13.9-natives-windows.jar;<WORKDIR>\.minecraft\libraries\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;<WORKDIR>\.minecraft\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;<WORKDIR>\.minecraft\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;<WORKDIR>\.minecraft\libraries\io\netty\netty-buffer\4.1.82.Final\netty-buffer-4.1.82.Final.jar;<WORKDIR>\.minecraft\libraries\io\netty\netty-codec\4.1.82.Final\netty-codec-4.1.82.Final.jar;<WORKDIR>\.minecraft\libraries\io\netty\netty-common\4.1.82.Final\netty-common-4.1.82.Final.jar;<WORKDIR>\.minecraft\libraries\io\netty\netty-handler\4.1.82.Final\netty-handler-4.1.82.Final.jar;<WORKDIR>\.minecraft\libraries\io\netty\netty-resolver\4.1.82.Final\netty-resolver-4.1.82.Final.jar;<WORKDIR>\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.1.82.Final\netty-transport-classes-epoll-4.1.82.Final.jar;<WORKDIR>\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.1.82.Final\netty-transport-native-unix-common-4.1.82.Final.jar;<WORKDIR>\.minecraft\libraries\io\netty\netty-transport\4.1.82.Final\netty-transport-4.1.82.Final.jar;<WORKDIR>\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.9\fastutil-8.5.9.jar;<WORKDIR>\.minecraft\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;<WORKDIR>\.minecraft\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;<WORKDIR>\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;<WORKDIR>\.minecraft\libraries\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;<WORKDIR>\.minecraft\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;<WORKDIR>\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;<WORKDIR>\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;<WORKDIR>\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;<WORKDIR>\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;<WORKDIR>\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.19.0\log4j-slf4j2-impl-2.19.0.jar;<WORKDIR>\.minecraft\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows-x86.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows-x86.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows-x86.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows-x86.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows.jar;<WORKDIR>\.minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows-x86.jar;<WORKDIR>\.minecraft\libraries\org\slf4j\slf4j-api\2.0.1\slf4j-api-2.0.1.jar;<WORKDIR>\.minecraft\versions\1.19.4\1.19.4.jar
+[Info: 2023-04-24 05:11:44.3577801: JavaLaunchConfiguration.cpp(214)] Java argument:-Xmx2G
+[Info: 2023-04-24 05:11:44.3577942: JavaLaunchConfiguration.cpp(214)] Java argument:-XX:+UnlockExperimentalVMOptions
+[Info: 2023-04-24 05:11:44.3578082: JavaLaunchConfiguration.cpp(214)] Java argument:-XX:+UseG1GC
+[Info: 2023-04-24 05:11:44.3578214: JavaLaunchConfiguration.cpp(214)] Java argument:-XX:G1NewSizePercent=20
+[Info: 2023-04-24 05:11:44.3578373: JavaLaunchConfiguration.cpp(214)] Java argument:-XX:G1ReservePercent=20
+[Info: 2023-04-24 05:11:44.3578504: JavaLaunchConfiguration.cpp(214)] Java argument:-XX:MaxGCPauseMillis=50
+[Info: 2023-04-24 05:11:44.3578636: JavaLaunchConfiguration.cpp(214)] Java argument:-XX:G1HeapRegionSize=32M
+[Info: 2023-04-24 05:11:44.3579323: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Info Using default game log configuration client-1.12.xml (outputs XML)
+[Info: 2023-04-24 05:11:44.3612456: MinecraftJavaRunningContext.cpp(315)] Starting game in folder %USERPROFILE%\AppData\Roaming\.minecraft using java executable %USERPROFILE%\AppData\Local\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local\runtime\java-runtime-gamma\windows-x64\java-runtime-gamma\bin\javaw.exe
+[Info: 2023-04-24 05:11:44.3615345: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.downloads");
+[Info: 2023-04-24 05:11:44.3619855: Process_Windows.cpp(33)] Creating process %USERPROFILE%\AppData\Local\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local\runtime\java-runtime-gamma\windows-x64\java-runtime-gamma\bin\javaw.exe
+[Info: 2023-04-24 05:11:44.3650379: MinecraftJavaRunningContext.cpp(322)] Starting game with token 3
+[Info: 2023-04-24 05:11:44.3652006: Process_Windows.cpp(102)] Starting process %USERPROFILE%\AppData\Local\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local\runtime\java-runtime-gamma\windows-x64\java-runtime-gamma\bin\javaw.exe
+[Info: 2023-04-24 05:11:44.3651144: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:11:44.3831657: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:11:44.3986429: Process_Windows.cpp(153)] Read thread is 18024
+[Info: 2023-04-24 05:11:44.4026045: LauncherAppRenderer.cpp(290)] MCLauncher.triggerUpdateEvent("coreEvent.gameInstances");
+[Info: 2023-04-24 05:11:44.4167576: ControllerInterface.cpp(106)] Running method updateConfiguration
+[Info: 2023-04-24 05:11:44.4182321: ControllerInterface.cpp(106)] Running method updateForcedMigrationStates
+[Info: 2023-04-24 05:11:44.4186423: client_handler.cpp(852)] NotifyBrowserClosing
+[Info: 2023-04-24 05:11:44.4190333: browser_window.cpp(61)] OnBrowserClosing
+[Info: 2023-04-24 05:11:44.4625346: client_handler.cpp(881)] NotifyBrowserClosed
+[Info: 2023-04-24 05:11:44.4626726: browser_window.cpp(68)] OnBrowserClosed (with delegate)
+[Info: 2023-04-24 05:11:44.4638669: root_window_manager.cpp(303)] Main window has been closed: 0000022585461B20
+[Info: 2023-04-24 05:11:44.4640641: root_window_manager.cpp(335)] All windows are gone.
+[Info: 2023-04-24 05:11:44.4641276: root_window_manager.cpp(337)] Checking if we can close the application...
+[Info: 2023-04-24 05:11:44.4642005: main_context.cpp(491)] Hiding launcher!
+[Info: 2023-04-24 05:11:51.1596856: MinecraftJavaLoggingContext.cpp(52)] Game/com.mojang.datafixers.DataFixerBuilder (Datafixer Bootstrap) Info 180 Datafixer optimizations took 208 milliseconds
+[Info: 2023-04-24 05:11:52.8310544: MinecraftJavaLoggingContext.cpp(52)] Game/com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService (Render thread) Info Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[Info: 2023-04-24 05:11:53.0929183: MinecraftJavaLoggingContext.cpp(52)] Game/emh (Render thread) Error Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationException: com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/player/attributes due to api.minecraftservices.com
+	at com.mojang.authlib.exceptions.MinecraftClientException.toAuthenticationException(MinecraftClientException.java:28)
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:160)
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55)
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161)
+	at emh.a(SourceFile:732)
+	at emh.<init>(SourceFile:440)
+	at net.minecraft.client.main.Main.main(SourceFile:198)
+Caused by: com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/player/attributes due to api.minecraftservices.com
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:93)
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48)
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129)
+	... 5 more
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1287)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:72)
+	... 7 more
+
+[Info: 2023-04-24 05:11:53.0998361: MinecraftJavaLoggingContext.cpp(52)] Game/emh (Render thread) Info Setting user: Player
+[Info: 2023-04-24 05:11:53.1968889: MinecraftJavaLoggingContext.cpp(52)] Game/emh (Render thread) Info Backend library: LWJGL version 3.3.1 build 7
+[Info: 2023-04-24 05:11:54.7406743: MinecraftJavaLoggingContext.cpp(52)] Game/fdf (Worker-Main-3) Error Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at fdf.a(SourceFile:139)
+	at fdf.b(SourceFile:79)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+[Info: 2023-04-24 05:11:54.8100641: MinecraftJavaLoggingContext.cpp(52)] Game/com.mojang.text2speech.NarratorWindows (Render thread) Info Narrator library for x64 successfully loaded
+[Info: 2023-04-24 05:11:54.8606397: MinecraftJavaLoggingContext.cpp(52)] Game/ale (Render thread) Info Reloading ResourceManager: vanilla
+[Info: 2023-04-24 05:11:57.7172926: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:item.brush.brushing
+[Info: 2023-04-24 05:11:57.7185161: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:item.brush.brush_sand_completed
+[Info: 2023-04-24 05:11:57.7199797: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:item.goat_horn.play
+[Info: 2023-04-24 05:11:57.7207412: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[Info: 2023-04-24 05:11:57.7213930: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:music.overworld.cherry_grove
+[Info: 2023-04-24 05:11:57.7779284: MinecraftJavaLoggingContext.cpp(52)] Game/efb (Render thread) Info OpenAL initialized on device OpenAL Soft on Headphones (Airdopes 141)
+[Info: 2023-04-24 05:11:57.7793991: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Info Sound engine started
+[Info: 2023-04-24 05:11:57.8770117: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[Info: 2023-04-24 05:11:57.8899101: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[Info: 2023-04-24 05:11:57.8946299: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[Info: 2023-04-24 05:11:57.8961790: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[Info: 2023-04-24 05:11:57.8987955: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[Info: 2023-04-24 05:11:57.9045281: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[Info: 2023-04-24 05:11:57.9101374: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[Info: 2023-04-24 05:11:57.9109107: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[Info: 2023-04-24 05:11:57.9123217: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[Info: 2023-04-24 05:11:58.2922746: MinecraftJavaLoggingContext.cpp(52)] Game/fir (Render thread) Warn Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[Info: 2023-04-24 05:11:58.3780293: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[Info: 2023-04-24 05:11:58.3801957: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[Info: 2023-04-24 05:11:58.3808693: MinecraftJavaLoggingContext.cpp(52)] Game/ftb (Render thread) Info Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[Info: 2023-04-24 05:12:06.5173847: MinecraftJavaLoggingContext.cpp(52)] Game/eht (Realms Notification Availability checker #1) Info Could not authorize you against Realms server: Invalid session id
+[Info: 2023-04-24 05:12:07.4287016: MinecraftJavaLoggingContext.cpp(52)] Game/ciz (Render thread) Info Loaded 7 recipes
+[Info: 2023-04-24 05:12:07.7219487: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 1179 advancements
+[Info: 2023-04-24 05:12:08.4152201: MinecraftJavaLoggingContext.cpp(52)] Game/fww (Server thread) Info Starting integrated minecraft server version 1.19.4
+[Info: 2023-04-24 05:12:08.4154518: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Generating keypair
+[Info: 2023-04-24 05:12:16.1423873: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Preparing start region for dimension minecraft:overworld
+[Info: 2023-04-24 05:12:18.8414450: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:18.9874431: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:18.9875849: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:18.9876317: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:18.9876751: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:18.9891210: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:19.2828148: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:19.7379227: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:20.2302160: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:20.6840100: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:21.2289434: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:21.6830521: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 0%
+[Info: 2023-04-24 05:12:22.2077931: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 1%
+[Info: 2023-04-24 05:12:22.6980725: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 1%
+[Info: 2023-04-24 05:12:23.2161428: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 2%
+[Info: 2023-04-24 05:12:23.3170789: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:12:23.4373725: LauncherAppBrowser.cpp(83)] Will launch a Chromium subprocess with command line string: "C:\Program Files\WindowsApps\Microsoft.4297127D64EC6_1.2.4.0_x64__8wekyb3d8bbwe\Minecraft.exe" --type=gpu-process --disable-gpu-sandbox --use-gl=disabled --gpu-vendor-id=4318 --gpu-device-id=8081 --gpu-sub-system-id=278859843 --gpu-revision=161 --gpu-driver-version=31.0.15.2866 --no-sandbox --log-severity=info --lang=en-US --user-data-dir="%USERPROFILE%\AppData\Local\CEF\User Data" --launcherui --workdir="<WORKDIR>\.minecraft" /prefetch:2
+[Info: 2023-04-24 05:12:23.4536317: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:12:23.7919959: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 2%
+[Info: 2023-04-24 05:12:23.9652020: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:12:24.1993020: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 2%
+[Info: 2023-04-24 05:12:24.3734569: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:12:24.6935985: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 3%
+[Info: 2023-04-24 05:12:24.8271784: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:12:25.0453761: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:12:25.1932493: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 3%
+[Info: 2023-04-24 05:12:25.5658097: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:12:25.7572724: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 3%
+[Info: 2023-04-24 05:12:25.8815721: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:12:26.1970472: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 4%
+[Info: 2023-04-24 05:12:26.3886686: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:12:26.6134579: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:12:26.6960651: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 4%
+[Info: 2023-04-24 05:12:27.2545526: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 5%
+[Info: 2023-04-24 05:12:27.6909107: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 6%
+[Info: 2023-04-24 05:12:28.2067560: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 7%
+[Info: 2023-04-24 05:12:28.7005863: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 7%
+[Info: 2023-04-24 05:12:29.2061153: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 8%
+[Info: 2023-04-24 05:12:29.8760505: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 9%
+[Info: 2023-04-24 05:12:30.2196386: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 9%
+[Info: 2023-04-24 05:12:30.7125024: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 10%
+[Info: 2023-04-24 05:12:31.1873594: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 11%
+[Info: 2023-04-24 05:12:31.6869958: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 12%
+[Info: 2023-04-24 05:12:32.1811176: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 12%
+[Info: 2023-04-24 05:12:35.9587259: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 12%
+[Info: 2023-04-24 05:12:35.9594828: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 12%
+[Info: 2023-04-24 05:12:35.9597970: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 12%
+[Info: 2023-04-24 05:12:35.9600276: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 12%
+[Info: 2023-04-24 05:12:35.9602085: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 12%
+[Info: 2023-04-24 05:12:35.9603646: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 12%
+[Info: 2023-04-24 05:12:35.9605169: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 12%
+[Info: 2023-04-24 05:12:36.1969469: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 13%
+[Info: 2023-04-24 05:12:36.7452707: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 15%
+[Info: 2023-04-24 05:12:37.2266813: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 16%
+[Info: 2023-04-24 05:12:37.6963328: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 17%
+[Info: 2023-04-24 05:12:38.1977398: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 18%
+[Info: 2023-04-24 05:12:38.7504918: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 19%
+[Info: 2023-04-24 05:12:39.2012027: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 20%
+[Info: 2023-04-24 05:12:39.7010338: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 21%
+[Info: 2023-04-24 05:12:40.1968751: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 23%
+[Info: 2023-04-24 05:12:40.6860261: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 24%
+[Info: 2023-04-24 05:12:41.2075936: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 25%
+[Info: 2023-04-24 05:12:41.6861963: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 27%
+[Info: 2023-04-24 05:12:42.1864122: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 28%
+[Info: 2023-04-24 05:12:42.7619431: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 30%
+[Info: 2023-04-24 05:12:43.2727974: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 30%
+[Info: 2023-04-24 05:12:43.7308959: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 31%
+[Info: 2023-04-24 05:12:44.2549286: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 33%
+[Info: 2023-04-24 05:12:44.6908046: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 34%
+[Info: 2023-04-24 05:12:45.1989072: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 35%
+[Info: 2023-04-24 05:12:45.7007663: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 37%
+[Info: 2023-04-24 05:12:46.1990924: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 38%
+[Info: 2023-04-24 05:12:47.2950508: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 39%
+[Info: 2023-04-24 05:12:47.2953586: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 39%
+[Info: 2023-04-24 05:12:47.7041755: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 42%
+[Info: 2023-04-24 05:12:48.1842425: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 43%
+[Info: 2023-04-24 05:12:48.7094793: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 45%
+[Info: 2023-04-24 05:12:49.2162173: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 46%
+[Info: 2023-04-24 05:12:49.7028234: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 47%
+[Info: 2023-04-24 05:12:50.2264376: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 48%
+[Info: 2023-04-24 05:12:50.7117748: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 48%
+[Info: 2023-04-24 05:12:51.1943056: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 50%
+[Info: 2023-04-24 05:12:51.7309447: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 52%
+[Info: 2023-04-24 05:12:52.2064284: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 52%
+[Info: 2023-04-24 05:12:52.6957902: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 54%
+[Info: 2023-04-24 05:12:53.2321327: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 56%
+[Info: 2023-04-24 05:12:53.6973445: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 58%
+[Info: 2023-04-24 05:12:54.1957772: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 59%
+[Info: 2023-04-24 05:12:54.7022479: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 59%
+[Info: 2023-04-24 05:12:55.2246332: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 62%
+[Info: 2023-04-24 05:12:55.6840885: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 63%
+[Info: 2023-04-24 05:12:56.2150204: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 64%
+[Info: 2023-04-24 05:12:56.6978014: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 66%
+[Info: 2023-04-24 05:12:57.1909171: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 68%
+[Info: 2023-04-24 05:12:57.7246517: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 69%
+[Info: 2023-04-24 05:12:58.2134555: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 71%
+[Info: 2023-04-24 05:12:58.6882848: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 72%
+[Info: 2023-04-24 05:12:59.1872882: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 73%
+[Info: 2023-04-24 05:12:59.6903974: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 75%
+[Info: 2023-04-24 05:13:00.1942081: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 76%
+[Info: 2023-04-24 05:13:00.7095277: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 76%
+[Info: 2023-04-24 05:13:01.2069311: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 78%
+[Info: 2023-04-24 05:13:01.7001291: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 79%
+[Info: 2023-04-24 05:13:02.1980429: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 81%
+[Info: 2023-04-24 05:13:02.6816164: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 83%
+[Info: 2023-04-24 05:13:03.1885944: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 84%
+[Info: 2023-04-24 05:13:03.6926122: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 86%
+[Info: 2023-04-24 05:13:04.2108646: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 87%
+[Info: 2023-04-24 05:13:04.7100836: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 88%
+[Info: 2023-04-24 05:13:05.2001625: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 88%
+[Info: 2023-04-24 05:13:05.6997064: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 89%
+[Info: 2023-04-24 05:13:06.1976474: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 91%
+[Info: 2023-04-24 05:13:06.7682596: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 95%
+[Info: 2023-04-24 05:13:07.5199944: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Preparing spawn area: 96%
+[Info: 2023-04-24 05:13:07.6743473: MinecraftJavaLoggingContext.cpp(52)] Game/aja (Render thread) Info Time elapsed: 51494 ms
+[Info: 2023-04-24 05:13:07.9089678: MinecraftJavaLoggingContext.cpp(52)] Game/fww (Server thread) Info Changing view distance to 12, from 10
+[Info: 2023-04-24 05:13:07.9165417: MinecraftJavaLoggingContext.cpp(52)] Game/fww (Server thread) Info Changing simulation distance to 12, from 0
+[Info: 2023-04-24 05:13:09.1006251: MinecraftJavaLoggingContext.cpp(52)] Game/alu (Server thread) Info Player[local:E:b7759c76] logged in with entity id 284 at (-56.5, 69.0, 74.5)
+[Info: 2023-04-24 05:13:09.1956672: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Player joined the game
+[Info: 2023-04-24 05:13:10.7287075: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2908ms or 58 ticks behind
+[Info: 2023-04-24 05:13:10.9205379: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 2 advancements
+[Info: 2023-04-24 05:13:11.3039534: MinecraftJavaLoggingContext.cpp(52)] Game/fww (Server thread) Info Saving and pausing game...
+[Info: 2023-04-24 05:13:11.3472988: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[Info: 2023-04-24 05:13:14.2854147: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[Info: 2023-04-24 05:13:14.2875814: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[Info: 2023-04-24 05:14:23.4993234: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:14:23.5840817: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:14:24.4908869: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:14:24.7930048: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:14:25.0949067: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:14:25.1718750: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:14:25.4739814: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:14:25.5405923: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:14:26.4465794: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:14:26.5059807: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:15:20.1406028: MinecraftJavaLoggingContext.cpp(52)] Game/fww (Server thread) Info Saving and pausing game...
+[Info: 2023-04-24 05:15:20.2172266: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[Info: 2023-04-24 05:15:22.2814411: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[Info: 2023-04-24 05:15:22.2824924: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[Info: 2023-04-24 05:15:22.3209122: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 4001ms or 80 ticks behind
+[Info: 2023-04-24 05:16:24.0138342: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:16:24.1527541: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:16:25.0630684: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:16:25.3657670: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:16:25.6680136: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:16:25.7725297: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:16:26.0776825: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:16:26.2066747: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:16:26.5471032: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:16:26.6441474: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:18:24.2187282: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:18:24.3858001: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:18:25.3234276: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:18:25.6357050: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:18:25.9443118: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:18:26.0380312: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:18:26.3509987: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:18:26.4718095: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:18:26.8062480: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:18:27.0053304: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:18:56.7847014: MinecraftJavaLoggingContext.cpp(52)] Game/eod (Render thread) Info [System] [CHAT] Use the w, a, s, d keys and the mouse to move around
+[Info: 2023-04-24 05:19:00.4033760: MinecraftJavaLoggingContext.cpp(52)] Game/eod (Render thread) Info [System] [CHAT] Jump by pressing the Space key
+[Info: 2023-04-24 05:19:00.5622972: MinecraftJavaLoggingContext.cpp(52)] Game/fww (Server thread) Info Saving and pausing game...
+[Info: 2023-04-24 05:19:00.6660763: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[Info: 2023-04-24 05:19:01.5713182: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[Info: 2023-04-24 05:19:01.5722467: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[Info: 2023-04-24 05:19:01.6892802: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
+[Info: 2023-04-24 05:19:13.3395182: MinecraftJavaLoggingContext.cpp(52)] Game/eod (Render thread) Info [System] [CHAT] Use the e key to open your inventory
+[Info: 2023-04-24 05:19:21.6486399: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 4978ms or 99 ticks behind
+[Info: 2023-04-24 05:19:23.0196791: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 23 advancements
+[Info: 2023-04-24 05:19:25.8450139: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 26 advancements
+[Info: 2023-04-24 05:19:28.3851799: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 27 advancements
+[Info: 2023-04-24 05:19:32.5534518: MinecraftJavaLoggingContext.cpp(52)] Game/eod (Render thread) Info [System] [CHAT] This demo will last five game days. Do your best!
+[Info: 2023-04-24 05:19:41.2549463: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 4634ms or 92 ticks behind
+[Info: 2023-04-24 05:19:47.3356154: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (IO-Worker-13) Info System default audio device has changed!
+[Info: 2023-04-24 05:19:47.3703097: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:item.brush.brushing
+[Info: 2023-04-24 05:19:47.3707721: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:item.brush.brush_sand_completed
+[Info: 2023-04-24 05:19:47.3759810: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:item.goat_horn.play
+[Info: 2023-04-24 05:19:47.3766564: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[Info: 2023-04-24 05:19:47.3787579: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:music.overworld.cherry_grove
+[Info: 2023-04-24 05:19:49.4356111: MinecraftJavaLoggingContext.cpp(52)] Game/efb (Render thread) Info OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[Info: 2023-04-24 05:19:49.4382534: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Info Sound engine started
+[Info: 2023-04-24 05:20:15.9686403: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 28 advancements
+[Info: 2023-04-24 05:20:20.9074334: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 29 advancements
+[Info: 2023-04-24 05:20:24.6816671: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:20:26.5260449: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:20:26.9234192: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:20:27.3927287: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:20:27.8411339: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:20:28.1506076: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:20:28.5531034: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:20:29.4255576: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:20:30.2425927: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:20:30.5250484: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:20:36.3555672: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 31 advancements
+[Info: 2023-04-24 05:21:17.2979318: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 38 advancements
+[Info: 2023-04-24 05:21:29.8779297: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[Info: 2023-04-24 05:22:02.5127469: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 56 advancements
+[Info: 2023-04-24 05:22:24.9759569: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:22:25.4052917: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:22:26.9398479: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:22:27.8464285: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:22:28.1500045: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:22:28.6210942: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:22:28.9917695: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:22:29.5201509: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:22:30.6041844: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:22:30.8106466: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:23:25.9808011: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (IO-Worker-22) Info System default audio device has changed!
+[Info: 2023-04-24 05:23:25.9896003: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:item.brush.brushing
+[Info: 2023-04-24 05:23:25.9900105: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:item.brush.brush_sand_completed
+[Info: 2023-04-24 05:23:25.9925401: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:item.goat_horn.play
+[Info: 2023-04-24 05:23:25.9933969: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[Info: 2023-04-24 05:23:25.9939918: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Missing sound for event: minecraft:music.overworld.cherry_grove
+[Info: 2023-04-24 05:23:27.0626505: MinecraftJavaLoggingContext.cpp(52)] Game/efb (Render thread) Info OpenAL initialized on device OpenAL Soft on Headphones (Airdopes 141)
+[Info: 2023-04-24 05:23:27.0634996: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Info Sound engine started
+[Info: 2023-04-24 05:23:45.3034323: MinecraftJavaLoggingContext.cpp(52)] Game/fww (Server thread) Info Saving and pausing game...
+[Info: 2023-04-24 05:23:45.5666356: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[Info: 2023-04-24 05:23:45.5987739: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[Info: 2023-04-24 05:23:45.6055551: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[Info: 2023-04-24 05:24:25.5365077: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:24:25.7876595: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:24:27.3068441: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:24:28.2243729: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:24:28.6966560: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:24:29.5676751: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:24:29.9010120: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:24:30.1195702: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:24:31.0631533: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:24:31.3409751: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:25:09.3820322: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[Info: 2023-04-24 05:25:22.1664940: NetQueue.cpp(700)] NetQueue: Starting net action https://www.xboxab.com/ab
+[Info: 2023-04-24 05:25:22.6483122: NetQueue.cpp(484)] NetQueue: Primary ip: 13.107.5.91, Host: www.xboxab.com
+[Info: 2023-04-24 05:25:22.6485830: NetQueue.cpp(573)] NetQueue: Action finished: https://www.xboxab.com/ab
+[Error: 2023-04-24 05:25:22.6499273: TreatmentTagFetcher.cpp(97)] https://www.xboxab.com/ab.AssignmentContext: Unknown key
+[Error: 2023-04-24 05:25:22.6502098: TreatmentTagFetcher.cpp(97)] https://www.xboxab.com/ab.Configs: Unknown key
+[Error: 2023-04-24 05:25:22.6506652: TreatmentTagFetcher.cpp(97)] https://www.xboxab.com/ab.FlightingVersion: Unknown key
+[Error: 2023-04-24 05:25:22.6507215: TreatmentTagFetcher.cpp(97)] https://www.xboxab.com/ab.Flights: Unknown key
+[Error: 2023-04-24 05:25:22.6507630: TreatmentTagFetcher.cpp(97)] https://www.xboxab.com/ab.ImpressionId: Unknown key
+[Error: 2023-04-24 05:25:22.6508091: TreatmentTagFetcher.cpp(97)] https://www.xboxab.com/ab.ParameterGroups: Unknown key
+[Info: 2023-04-24 05:25:22.6543602: NetQueue.cpp(615)] Action finalized: https://www.xboxab.com/ab
+[Info: 2023-04-24 05:26:10.1329735: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[Info: 2023-04-24 05:26:25.6354432: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:26:26.5203519: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:26:27.6988680: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:26:27.8237437: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2702ms or 54 ticks behind
+[Info: 2023-04-24 05:26:28.6665114: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:26:28.9828904: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:26:29.4543370: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:26:30.5220982: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:26:30.9394078: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:26:31.4444949: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:26:32.2986882: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:27:10.2474319: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 57 advancements
+[Info: 2023-04-24 05:27:52.0937507: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 80 advancements
+[Info: 2023-04-24 05:27:52.6691873: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 83 advancements
+[Info: 2023-04-24 05:27:52.7246226: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 102 advancements
+[Info: 2023-04-24 05:28:25.8795673: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:28:26.3780881: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:28:26.6814794: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 104 advancements
+[Info: 2023-04-24 05:28:27.9391602: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:28:29.4531913: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:28:29.7766049: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:28:30.2884302: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:28:30.6818889: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:28:31.2764111: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:28:31.6443968: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:28:31.8371198: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:29:03.5949122: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 113 advancements
+[Info: 2023-04-24 05:29:03.6309158: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[Info: 2023-04-24 05:29:13.1889570: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 116 advancements
+[Info: 2023-04-24 05:29:24.8441547: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 131 advancements
+[Info: 2023-04-24 05:29:24.9309922: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[Info: 2023-04-24 05:29:38.8072790: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[Info: 2023-04-24 05:29:49.4343337: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[Info: 2023-04-24 05:29:49.8224832: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 138 advancements
+[Info: 2023-04-24 05:29:54.4234242: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 138 advancements
+[Info: 2023-04-24 05:30:05.6924979: MinecraftJavaLoggingContext.cpp(52)] Game/aji (Server thread) Warn Boat (vehicle of Player) moved wrongly! 0.784790650010109
+[Info: 2023-04-24 05:30:05.6977343: MinecraftJavaLoggingContext.cpp(52)] Game/aji (Server thread) Warn Boat (vehicle of Player) moved wrongly! 0.8202770387666476
+[Info: 2023-04-24 05:30:06.6452615: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[Info: 2023-04-24 05:30:25.6676261: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 4046ms or 80 ticks behind
+[Info: 2023-04-24 05:30:26.3373633: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 138 advancements
+[Info: 2023-04-24 05:30:26.4809051: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:30:26.7259177: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:30:27.9343762: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:30:30.0638149: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:30:30.4708763: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:30:30.7780696: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:30:31.3084223: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:30:31.5686703: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:30:31.8701646: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:30:32.3909234: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:30:43.8790549: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2059ms or 41 ticks behind
+[Info: 2023-04-24 05:30:55.1027717: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Player has made the advancement [Sweet Dreams]
+[Info: 2023-04-24 05:30:55.1140342: MinecraftJavaLoggingContext.cpp(52)] Game/eod (Render thread) Info [System] [CHAT] Respawn point set
+[Info: 2023-04-24 05:30:55.1154129: MinecraftJavaLoggingContext.cpp(52)] Game/eod (Render thread) Info [System] [CHAT] Player has made the advancement [Sweet Dreams]
+[Info: 2023-04-24 05:30:55.1506069: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 138 advancements
+[Info: 2023-04-24 05:31:01.3921311: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2521ms or 50 ticks behind
+[Info: 2023-04-24 05:31:19.9985599: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
+[Info: 2023-04-24 05:31:40.6429823: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 5672ms or 113 ticks behind
+[Info: 2023-04-24 05:31:59.0387771: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 3417ms or 68 ticks behind
+[Info: 2023-04-24 05:32:06.7307649: MinecraftJavaLoggingContext.cpp(52)] Game/fxg (Render thread) Warn Unable to play empty soundEvent: minecraft:entity.tropical_fish.ambient
+[Info: 2023-04-24 05:32:12.4954485: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 138 advancements
+[Info: 2023-04-24 05:32:22.0216309: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 8001ms or 160 ticks behind
+[Info: 2023-04-24 05:32:26.6107590: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:32:27.0147976: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:32:28.6634212: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:32:30.1224693: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:32:31.0290874: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:32:31.5978870: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:32:32.0195538: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:32:32.3270663: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:32:32.7963104: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:32:33.7291755: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:32:40.0948975: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Player has made the advancement [Monster Hunter]
+[Info: 2023-04-24 05:32:40.1075814: MinecraftJavaLoggingContext.cpp(52)] Game/eod (Render thread) Info [System] [CHAT] Player has made the advancement [Monster Hunter]
+[Info: 2023-04-24 05:32:40.1637415: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 141 advancements
+[Info: 2023-04-24 05:32:44.8108212: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 7790ms or 155 ticks behind
+[Info: 2023-04-24 05:33:07.7403074: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 7968ms or 159 ticks behind
+[Info: 2023-04-24 05:33:15.0212075: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 141 advancements
+[Info: 2023-04-24 05:33:30.3401366: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 7619ms or 152 ticks behind
+[Info: 2023-04-24 05:33:51.1665125: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 5845ms or 116 ticks behind
+[Info: 2023-04-24 05:33:51.4874778: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 141 advancements
+[Info: 2023-04-24 05:34:11.9636320: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 5842ms or 116 ticks behind
+[Info: 2023-04-24 05:34:24.1660928: MinecraftJavaLoggingContext.cpp(52)] Game/af (Render thread) Info Loaded 158 advancements
+[Info: 2023-04-24 05:34:27.1214814: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Uwp]
+[Info: 2023-04-24 05:34:27.6126690: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.Lovika_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:34:28.7284156: ProductInstance.cpp(100)] Allow remote update check, no entry found [dungeons-retail-Piston]
+[Info: 2023-04-24 05:34:30.2373240: ProductInstance.cpp(100)] Allow remote update check, no entry found [java-retail-Piston]
+[Info: 2023-04-24 05:34:31.1431734: ProductInstance.cpp(100)] Allow remote update check, no entry found [legends-retail-Uwp]
+[Info: 2023-04-24 05:34:31.8337707: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.BadgerWin10_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:34:32.3175632: ProductInstance.cpp(120)] Allow remote update check, time is due [bedrock-retail-Uwp]
+[Info: 2023-04-24 05:34:33.1774882: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftUWP_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:34:33.7087159: ProductInstance.cpp(100)] Allow remote update check, no entry found [bedrock-preview-Uwp]
+[Info: 2023-04-24 05:34:34.3196683: WinStoreInstaller_gamecore.cpp(366)] No App Install found or Package found for [Microsoft.MinecraftWindowsBeta_8wekyb3d8bbwe]
+[Info: 2023-04-24 05:34:36.7319991: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Warn Can't keep up! Is the server overloaded? Running 9811ms or 196 ticks behind
+[Info: 2023-04-24 05:34:43.9304071: MinecraftJavaLoggingContext.cpp(52)] Game/fww (Server thread) Info Saving and pausing game...
+[Info: 2023-04-24 05:34:44.5396996: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[Info: 2023-04-24 05:34:46.2320083: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[Info: 2023-04-24 05:34:46.2391713: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[Info: 2023-04-24 05:34:54.6514908: MinecraftJavaLoggingContext.cpp(52)] Game/aji (Server thread) Info Player lost connection: Disconnected
+[Info: 2023-04-24 05:34:54.6529145: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Player left the game
+[Info: 2023-04-24 05:34:54.6804833: MinecraftJavaLoggingContext.cpp(52)] Game/aji (Server thread) Info Stopping singleplayer server as player logged out
+[Info: 2023-04-24 05:34:54.6997323: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Stopping server
+[Info: 2023-04-24 05:34:54.7009254: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving players
+[Info: 2023-04-24 05:34:54.7016664: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving worlds
+[Info: 2023-04-24 05:34:58.7819564: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:overworld
+[Info: 2023-04-24 05:34:58.9477299: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_end
+[Info: 2023-04-24 05:34:58.9488347: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info Saving chunks for level 'ServerLevel[Demo World]'/minecraft:the_nether
+[Info: 2023-04-24 05:34:58.9702332: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info ThreadedAnvilChunkStorage (Demo_World): All chunks are saved
+[Info: 2023-04-24 05:34:58.9707103: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[Info: 2023-04-24 05:34:58.9708708: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[Info: 2023-04-24 05:34:58.9709956: MinecraftJavaLoggingContext.cpp(52)] Game/net.minecraft.server.MinecraftServer (Server thread) Info ThreadedAnvilChunkStorage: All dimensions are saved
+[Info: 2023-04-24 05:35:02.2414568: MinecraftJavaLoggingContext.cpp(52)] Game/emh (Render thread) Info Stopping!
+[Info: 2023-04-24 05:35:03.2303364: MinecraftJavaLoggingContext.cpp(52)] Launcher/launcher (main) Info 
+
+[Info: 2023-04-24 05:35:03.2304647: MinecraftJavaLoggingContext.cpp(52)] Launcher/monitor (Process Monitor) Info Process ended with exit code 0
+[Info: 2023-04-24 05:35:03.2305327: MinecraftJavaProductInstance.cpp(980)] Game closed with id 3
+[Info: 2023-04-24 05:35:03.2306025: MinecraftJavaLoggingContext.cpp(267)] Destroying logging context!
+[Info: 2023-04-24 05:35:03.2328370: main_context.cpp(496)] Will shutdown!
+[Info: 2023-04-24 05:35:03.2333255: Process_Windows.cpp(76)] Exiting process %USERPROFILE%\AppData\Local\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local\runtime\java-runtime-gamma\windows-x64\java-runtime-gamma\bin\javaw.exe
+[Info: 2023-04-24 05:35:03.2334476: Process_Windows.cpp(80)] Joining stdout thread
+[Warning: 2023-04-24 05:35:03.2334771: Process_Windows.cpp(82)] The io_service is still running work so signal it to stop..
+[Info: 2023-04-24 05:35:03.2337804: Process_Windows.cpp(86)] Joined!
+[Warning: 2023-04-24 05:35:03.2351630: BrowserSync.cpp(160)] Task is still running. Will try cancel it.
+[Info: 2023-04-24 05:35:03.2368163: ProductManager.cpp(529)] Stopping ProductManager..
+[Info: 2023-04-24 05:35:03.3288577: ProductManager.cpp(545)] ProductManager was stopped successfully
+[Info: 2023-04-24 05:35:03.5876086: NetQueue.cpp(212)] NetQueue: Initiating shutdown.
+[Info: 2023-04-24 05:35:03.5877164: NetQueue.cpp(226)] NetQueue: Waiting for worker thread to finish...
+[Info: 2023-04-24 05:35:03.5909868: NetQueue.cpp(839)] NetQueue: Worker thread shutting down.
+[Info: 2023-04-24 05:35:03.5919814: NetQueue.cpp(229)] NetQueue: Done.
+[Warning: 2023-04-24 05:35:03.6081707: ProductInstance.cpp(62)] Product was not informed of shutdown prior to deconstruction
+[Info: 2023-04-24 05:35:03.6147717: NetQueue.cpp(212)] NetQueue: Initiating shutdown.
+[Info: 2023-04-24 05:35:03.6148760: NetQueue.cpp(226)] NetQueue: Waiting for worker thread to finish...
+[Info: 2023-04-24 05:35:03.6157355: NetQueue.cpp(839)] NetQueue: Worker thread shutting down.
+[Info: 2023-04-24 05:35:03.6171990: NetQueue.cpp(229)] NetQueue: Done.
+[Info: 2023-04-24 05:35:03.8427167: StartLibrary.cpp(123)] Launcher ended with 0
+[Info: 2023-04-24 05:35:03.8452902: NetQueue.cpp(212)] NetQueue: Initiating shutdown.
+[Info: 2023-04-24 05:35:03.8456294: NetQueue.cpp(226)] NetQueue: Waiting for worker thread to finish...
+[Info: 2023-04-24 05:35:03.8468463: NetQueue.cpp(839)] NetQueue: Worker thread shutting down.
+[Info: 2023-04-24 05:35:03.8515314: NetQueue.cpp(229)] NetQueue: Done.

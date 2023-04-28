@@ -1,0 +1,126 @@
+learn about ctypes
+
+
+//material to read
+//Shaders: https://learnopengl.com/Getting-started/Shaders
+//Also shaders: https://antongerdelan.net/opengl/shaders.html
+//Ricardo Milos: https://www.urbandictionary.com/define.php?term=Ricardo+Milos
+//
+
+
+#https://stackoverflow.com/questions/23314787/use-of-vertex-array-objects-and-vertex-buffer-objects
+
+# https://openglbook.com/chapter-3-index-buffer-objects-and-primitive-types.html
+
+
+
+Matrix math: https://gregorygundersen.com/blog/2018/10/24/matrices/
+Matrices in 3D graphics: http://www.songho.ca/opengl/gl_projectionmatrix.html
+and http://www.opengl-tutorial.org/beginners-tutorials/tutorial-3-matrices/
+Shader uniforms: https://www.khronos.org/opengl/wiki/Uniform_%28GLSL%29
+
+matrix when multipled with a vector changes into sometiing 
+else  in a speciifc way
+
+by translating and roating a model matrix at the same times around a 
+object makes it looks  like the camera is moving not the scene
+thus this matrix would be called a view matrix
+
+the final resultant matrix would be called  a model view matrix 
+
+
+projection matrix
+used to make look stuff 3d
+
+this has a camera view of a frustum (cut off triangle pyramid view)
+here the fartheset things are covered in more area so 
+when the matrix squishes it down to the screen the farthesest object appears 
+smaller than the near object just as real life stuff
+
+there is a limit to how close and how far the frustum extends and 
+cuts stuff accordingly
+
+the depth of the frustum is called the "depth component (W)" 
+which is the axis that passes thourgh the frustum
+
+
+model view x projection matirc = model view projection matirc
+
+
+model view projection matirc x vertex vector = 
+
+
+#identity matrix is a spexial "neutral matrix" wheich when multiplied with vector wont be transformed
+
+WARNING ::
+multiplying a matrix by vector != multiplying vector by martix
+
+
+
+Texture coordinates, texture filtering, mipmaps, 
+and other texture-related stuff: https://learnopengl.com/Getting-started/Textures
+
+Texture arrays: https://www.khronos.org/opengl/wiki/Array_Texture
+
+Texture compression (isn't useful in the scope of these tutorials, 
+but is nice to keep in mind if/when you're working on more 
+graphically complex projects): https://www.informit.com/articles/article.aspx?p=770639&seqNum=3
+
+
+The Tau manifesto: https://tauday.com/tau-manifesto
+Normalized Device Coordinates (NDC): http://www.songho.ca/opengl/gl_projectionmatrix.html
+Atan2: https://en.wikipedia.org/wiki/Atan2
+
+tau  = 2pi  = circle constant
+
+when in top down of a player who is at origin 
+top to bottom is +z to -z axis
+left ot rigth is -x to x
+
+player is looking at +z direction
+
+the angles then are:
+towards +x  = 0 rads
+increaing anlgels go to counter clock wise direction
+
+then angles are
+when looking 
+forwrds = tau / 4 rads
+left    > tau / 4 rads
+right   < tau / 4 rads 
+
+
+during players Y rotation
+when player is looking at +z direction
+form top down
+top to bottom is +y to -y axis
+left ot rigth is -z to z
+
+angles are:
+looking
+forward = 0 rad
+UP      > 0 rad
+DOWN    < 0 rad
+
+
+
+Backface culling: https://learnopengl.com/Advanced-OpenGL/Face-culling
+
+creating one block at a time is very slow even making 16x16x16 blocks 
+was very hard on the hardware with < 2 FPS
+ 
+therfore rendering many blocks at the same time is better 
+also called as "chunks"
+
+Texture filtering (and mipmaps): http://what-when-how.com/opengl-programming-guide/filtering-texture-mapping-opengl-programming/
+Also texture filtering: https://www.khronos.org/opengl/wiki/Sampler_Object#Filtering
+Discarding fragments and blending (partial translucency): 
+https://learnopengl.com/Advanced-OpenGL/Blending
+
+
+
+NDC: Take a look at the resources under eps 4 $ 6
+Line/plane intersection: https://www.kristakingmath.com/blog/intersection-of-a-line-and-a-plane
+(Really, once you understand 
+intersections and how to express objects as equations, you essentially know 
+all of analytic geometry. It's daunting but it's really not that bad.)

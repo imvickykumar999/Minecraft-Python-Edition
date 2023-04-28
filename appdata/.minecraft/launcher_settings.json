@@ -1,0 +1,11 @@
+{
+  "channel" : "release",
+  "customChannels" : [],
+  "deviceId" : 5733256007250549943,
+  "formatVersion" : 0,
+  "locale" : "en-US",
+  "productLibraryDir" : "C:\\Users\\Vicky\\AppData\\Local\\Mojang\\products",
+  "useArm64JreIfSupported" : false,
+  "useMagnifiedMode" : false,
+  "version" : 3
+}
