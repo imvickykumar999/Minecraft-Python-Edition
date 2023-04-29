@@ -63,7 +63,7 @@ class Voxel(Button):
 			if key == 'left mouse down':
 				punch_sound.play()
 				box = {str(texture) : list(save_new)}
-				print('------Appended-------', box)
+				# print('------Appended-------', box)
 				
 				voxel = Voxel(position = save_new, texture = texture)
 				obj["position"].append(box)
@@ -71,7 +71,7 @@ class Voxel(Button):
 			if key == 'right mouse down':
 				punch_sound.play()
 				box = {str(self.texture) : list(self.position)}
-				print('------Removed-------', box)
+				# print('------Removed-------', box)
 
 				obj["position"].remove(box)
 				destroy(self)
@@ -105,16 +105,19 @@ class Hand(Entity):
 	def passive(self):
 		self.position = Vec2(0.4,-0.6)
 
-
 for i in obj['position']:
 	texture = load_texture(f'assets/{list(i.keys())[0]}')
 	save_new = Vec3(tuple(list(i.values())[0]))
 	voxel = Voxel(position = save_new, texture = texture)
 
-for z in range(20):
-	for x in range(20):
-		voxel = Voxel(position = (x,0,z))
-		
+if len(obj['position']) == 0:
+	for z in range(20):
+		for x in range(20):
+			box = {str(grass_texture) : list((x,0,z))}
+			obj["position"].append(box)
+			voxel = Voxel(position = (x,0,z))
+
+
 player = FirstPersonController()
 sky = Sky()
 hand = Hand()
