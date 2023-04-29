@@ -114,8 +114,8 @@ for i in obj['position']:
 	voxel = Voxel(position = save_new, texture = texture)
 
 if len_pos == 0:
-	for z in range(2):
-		for x in range(2):
+	for z in range(20):
+		for x in range(20):
 			box = {str(grass_texture) : list((x,0,z))}
 			obj["position"].append(box)
 			voxel = Voxel(position = (x,0,z))
