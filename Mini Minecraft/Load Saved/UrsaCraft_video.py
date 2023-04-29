@@ -8,14 +8,17 @@ with open(path) as f:
    obj = json.load(f)
 
 app = Ursina()
+len_pos = len(obj['position'])
+
+sky_texture   = load_texture('assets/skybox.png')
 grass_texture = load_texture('assets/grass_block.png')
 stone_texture = load_texture('assets/stone_block.png')
 brick_texture = load_texture('assets/brick_block.png')
 dirt_texture  = load_texture('assets/dirt_block.png')
-sky_texture   = load_texture('assets/skybox.png')
 arm_texture   = load_texture('assets/arm_texture.png')
-punch_sound   = Audio('assets/punch_sound',loop = False, autoplay = False)
+
 block_pick = 1
+punch_sound   = Audio('assets/punch_sound',loop = False, autoplay = False)
 
 window.fps_counter.enabled = False
 window.exit_button.visible = False
@@ -110,16 +113,16 @@ for i in obj['position']:
 	save_new = Vec3(tuple(list(i.values())[0]))
 	voxel = Voxel(position = save_new, texture = texture)
 
-if len(obj['position']) == 0:
-	for z in range(20):
-		for x in range(20):
+if len_pos == 0:
+	for z in range(2):
+		for x in range(2):
 			box = {str(grass_texture) : list((x,0,z))}
 			obj["position"].append(box)
 			voxel = Voxel(position = (x,0,z))
-
+else:
+	print(len_pos)
 
 player = FirstPersonController()
 sky = Sky()
 hand = Hand()
-
 app.run()
