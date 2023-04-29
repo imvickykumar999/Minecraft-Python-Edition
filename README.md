@@ -4,7 +4,7 @@
 
 <br> <br>
 
->### `Auto Save World` **via** `Number Key` *with* `Reset Feature`
+>## `Auto-Save World` *with* `Reset Feature`
 >
 >![Minecraft](https://user-images.githubusercontent.com/50515418/235287735-2941a12f-c0ca-4a02-b7d5-027712868b03.png)
 >
