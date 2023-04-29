@@ -49,30 +49,36 @@ class Voxel(Button):
 
 	def input(self,key):
 		if self.hovered:
+			save_new = self.position + mouse.normal
+
+			if block_pick == 1: 
+				texture = grass_texture
+			if block_pick == 2: 
+				texture = stone_texture
+			if block_pick == 3: 
+				texture = brick_texture
+			if block_pick == 4: 
+				texture = dirt_texture
+			
 			if key == 'left mouse down':
 				punch_sound.play()
-				save_new = self.position + mouse.normal
-
-				if block_pick == 1: 
-					texture = grass_texture
-					voxel = Voxel(position = save_new, texture = texture)
-				if block_pick == 2: 
-					texture = stone_texture
-					voxel = Voxel(position = save_new, texture = texture)
-				if block_pick == 3: 
-					texture = brick_texture
-					voxel = Voxel(position = save_new, texture = texture)
-				if block_pick == 4: 
-					texture = dirt_texture
-					voxel = Voxel(position = save_new, texture = texture)
-
-				obj["position"].append({str(texture) : list(save_new)})
-				with open(path,"w+") as of:
-					json.dump(obj,of)
+				box = {str(texture) : list(save_new)}
+				print('------Appended-------', box)
+				
+				voxel = Voxel(position = save_new, texture = texture)
+				obj["position"].append(box)
 
 			if key == 'right mouse down':
 				punch_sound.play()
+				box = {str(self.texture) : list(self.position)}
+				print('------Removed-------', box)
+
+				obj["position"].remove(box)
 				destroy(self)
+
+			with open(path,"w+") as of:
+				json.dump(obj, of)
+
 
 class Sky(Entity):
 	def __init__(self):
