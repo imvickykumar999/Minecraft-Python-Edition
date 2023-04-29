@@ -51,17 +51,24 @@ class Voxel(Button):
 		if self.hovered:
 			if key == 'left mouse down':
 				punch_sound.play()
+				save_new = self.position + mouse.normal
 
-				save_new = tuple(self.position + mouse.normal)
-				obj["position"].append({"Vec3":save_new})
+				if block_pick == 1: 
+					texture = grass_texture
+					voxel = Voxel(position = save_new, texture = texture)
+				if block_pick == 2: 
+					texture = stone_texture
+					voxel = Voxel(position = save_new, texture = texture)
+				if block_pick == 3: 
+					texture = brick_texture
+					voxel = Voxel(position = save_new, texture = texture)
+				if block_pick == 4: 
+					texture = dirt_texture
+					voxel = Voxel(position = save_new, texture = texture)
 
+				obj["position"].append({str(texture) : list(save_new)})
 				with open(path,"w+") as of:
 					json.dump(obj,of)
-
-				if block_pick == 1: voxel = Voxel(position = self.position + mouse.normal, texture = grass_texture)
-				if block_pick == 2: voxel = Voxel(position = self.position + mouse.normal, texture = stone_texture)
-				if block_pick == 3: voxel = Voxel(position = self.position + mouse.normal, texture = brick_texture)
-				if block_pick == 4: voxel = Voxel(position = self.position + mouse.normal, texture = dirt_texture)
 
 			if key == 'right mouse down':
 				punch_sound.play()
@@ -94,13 +101,14 @@ class Hand(Entity):
 
 
 for i in obj['position']:
-	save_new = Vec3(tuple(i['Vec3']))
-	Voxel(position = save_new)
+	texture = load_texture(f'assets/{list(i.keys())[0]}')
+	save_new = Vec3(tuple(list(i.values())[0]))
+	voxel = Voxel(position = save_new, texture = texture)
 
 for z in range(20):
 	for x in range(20):
-		voxel = Voxel(position = (x,0,z)) # load from saved file
-
+		voxel = Voxel(position = (x,0,z))
+		
 player = FirstPersonController()
 sky = Sky()
 hand = Hand()
