@@ -3,12 +3,14 @@ import json
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
 
+
 path = "test.json"
 with open(path) as f:
    obj = json.load(f)
 
 app = Ursina()
 len_pos = len(obj['position'])
+
 
 sky_texture   = load_texture('assets/skybox.png')
 grass_texture = load_texture('assets/grass_block.png')
@@ -20,8 +22,10 @@ arm_texture   = load_texture('assets/arm_texture.png')
 block_pick = 1
 punch_sound   = Audio('assets/punch_sound',loop = False, autoplay = False)
 
+
 window.fps_counter.enabled = False
 window.exit_button.visible = False
+
 
 def update():
 	global block_pick
@@ -39,6 +43,7 @@ def update():
 	if held_keys['3']: block_pick = 3
 	if held_keys['4']: block_pick = 4
 
+
 class Voxel(Button):
 	def __init__(self, position = (0,0,0), texture = grass_texture):
 		super().__init__(
@@ -49,6 +54,7 @@ class Voxel(Button):
 			texture = texture,
 			color = color.color(0,0,random.uniform(0.9,1)),
 			scale = 0.5)
+
 
 	def input(self,key):
 		if self.hovered:
@@ -92,6 +98,7 @@ class Sky(Entity):
 			scale = 150,
 			double_sided = True)
 
+
 class Hand(Entity):
 	def __init__(self):
 		super().__init__(
@@ -108,10 +115,12 @@ class Hand(Entity):
 	def passive(self):
 		self.position = Vec2(0.4,-0.6)
 
+
 for i in obj['position']:
 	texture = load_texture(f'assets/{list(i.keys())[0]}')
 	save_new = Vec3(tuple(list(i.values())[0]))
 	voxel = Voxel(position = save_new, texture = texture)
+
 
 if len_pos == 0:
 	for z in range(20):
@@ -121,6 +130,7 @@ if len_pos == 0:
 			voxel = Voxel(position = (x,0,z))
 else:
 	print(len_pos)
+
 
 player = FirstPersonController()
 sky = Sky()

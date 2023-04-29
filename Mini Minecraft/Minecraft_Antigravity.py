@@ -72,7 +72,7 @@ def input(key):
         destroy(mouse.hovered_entity)
 
     try:
-        if key == 'e': 
+        if key == 'e': # teleporting at center of screen
             player.x = hit_info.entity.position.x
             player.y = hit_info.entity.position.y
             player.z = hit_info.entity.position.z
