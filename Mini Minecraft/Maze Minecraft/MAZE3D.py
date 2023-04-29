@@ -52,43 +52,44 @@ class Entity(Button):
 
 p=-2
 k=0
-# n=10
-# for k in [0,-30,-50]:
-# n+=5
-# p+=1
+n=10
+for k in [0,-30,-50]:
+    n+=5
+    p+=1
 
-us_maze = mzg.returnMaze(n,n)
-# print(us_maze) # UNsolved
+    us_maze = mzg.returnMaze(n,n)
+    # print(us_maze) # UNsolved
 
-s_maze = mzs.solve_maze(us_maze)
-# print(s_maze) # Solved
+    s_maze = mzs.solve_maze(us_maze)
+    # print(s_maze) # Solved
 
-y=k
-for z in range(len(s_maze)):
-    for x in range(len(s_maze[z])):
-        c+=1
+    y=k
+    for z in range(len(s_maze)):
+        for x in range(len(s_maze[z])):
+            c+=1
 
-        if us_maze[z][x] == 'p':
-            Entity(position=(x,y,z), 
-                texture=opt_texture[c%len(opt_texture)],
-                # texture='ursina_logo',
-                default_color=color.blue,
-                )
-        else:
-            Entity(position=(x,y,z))
-            # voxel = Voxel(position=(x,y,z))
+            if us_maze[z][x] == 'p':
+                Entity(position=(x,y,z), 
+                    texture=opt_texture[c%len(opt_texture)],
+                    # texture='ursina_logo',
+                    default_color=color.blue,
+                    )
+            else:
+                Entity(position=(x,y,z))
+                # voxel = Voxel(position=(x,y,z))
+
             
-y=k+1                          # for lower wall
-# for y in range(k+1,k+3+p):   # for higher wall
-for z in range(len(us_maze)):
-    for x in range(len(us_maze[z])):
+    y=k+1                          # for lower wall
+    # for y in range(k+1,k+3+p):   # for higher wall
+    for z in range(len(us_maze)):
+        for x in range(len(us_maze[z])):
 
-        if us_maze[z][x] == 'w':
-            Entity(position=(x,y,z), 
-                texture='brick',
-                # scale=(.5,.5,.5),
-                default_color=color.orange,
-                )
+            if us_maze[z][x] == 'w':
+                Entity(position=(x,y,z), 
+                    texture='brick',
+                    # scale=(.5,.5,.5),
+                    default_color=color.orange,
+                    )
 
 def input(key):
     global player
@@ -113,21 +114,20 @@ player = FPC(gravity=.07)
 
 def update():
     # print(player.y)
-    if player.y < -5:
+    if player.y < -51:
         player.y = 30
 
-    # if (player.x > n-3 and player.z > n-3) or (player.x < 3 and player.z < 3):
-    #     print_on_screen("Jump Down to switch Levels", position=(-.1,0))
+    if (player.x > n-3 and player.z > n-3) or (player.x < 3 and player.z < 3):
+        print_on_screen("Jump Down to switch Levels", position=(-.1,0))
 
-    # if player.y > -2:
-    #     print_on_screen("Level 1", position=(0,.1))
-    # elif player.y > -32:
-    #     print_on_screen("Level 2", position=(0,.2))
-    # else:
-    #     print_on_screen("Level 3", position=(0,.3))
+    if player.y > -2:
+        print_on_screen("Level 1", position=(0,.1))
+    elif player.y > -32:
+        print_on_screen("Level 2", position=(0,.2))
+    else:
+        print_on_screen("Level 3", position=(0,.3))
+        
 
-    # if player.y < -51:
-    #     player.y = 30
-
-Sky()
+skybox_image = load_texture("static/skybox.png")
+sky = Sky(texture=skybox_image)
 app.run()

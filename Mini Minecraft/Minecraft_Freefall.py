@@ -94,12 +94,14 @@ def input(key):
     if key == 'e' and mouse.hovered_entity:
         destroy(mouse.hovered_entity)
 
+    if key == 'f': # press f for anti-gravity
+        player.gravity *= -1
 
 window.fullscreen = 1
 player = FirstPersonController(gravity=.2)
 
 def update():
-    if player.y < -5:
+    if player.y < -5 or player.y > 200:
         player.y = 75 # jump off the boundry 
 
 

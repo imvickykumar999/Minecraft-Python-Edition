@@ -25,6 +25,7 @@ punch_sound   = Audio('assets/punch_sound',loop = False, autoplay = False)
 
 window.fps_counter.enabled = False
 window.exit_button.visible = False
+window.fullscreen = True
 
 
 def update():
