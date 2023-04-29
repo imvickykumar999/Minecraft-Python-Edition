@@ -1,5 +1,5 @@
 
-import json
+import json, time
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
 
@@ -29,7 +29,7 @@ window.fullscreen = True
 
 
 def update():
-	global block_pick
+	global block_pick, deatils
 
 	if player.y < -5:
 		player.y = 75 # jump off the boundry 
@@ -43,6 +43,16 @@ def update():
 	if held_keys['2']: block_pick = 2
 	if held_keys['3']: block_pick = 3
 	if held_keys['4']: block_pick = 4
+
+	deatils.text = f'''
+		>>> Details ...
+		-----------------------------
+		Unix Time = {int(time.time())}
+
+		Coordinate X = {player.x}
+		Coordinate Y = {player.y}
+		Coordinate Z = {player.z}
+	'''
 
 
 class Voxel(Button):
@@ -132,6 +142,11 @@ if len_pos == 0:
 else:
 	print(len_pos)
 
+
+deatils = Text(origin=(-.6, -.7),
+	font='VeraMono.ttf', 
+	color=color.red,
+	) 
 
 player = FirstPersonController()
 sky = Sky()
