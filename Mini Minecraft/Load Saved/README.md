@@ -1,4 +1,20 @@
 
+`Continue World` :
+
+        python minecraft.py home night
+
+`New World` :
+
+        python reset.py ground
+        
+`On Reset` : 
+
+        {"position": []}
+        
+------------------------
+
+`Arguments` **are** `world` *and* `sky` :
+
         try:
                 data = sys.argv[1]
         except:
@@ -10,10 +26,3 @@
                 sky = 'night'
 
 
-Continue World
-
-        python minecraft.py home night
-
-New World
-
-        python reset.py ground
