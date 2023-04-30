@@ -1,10 +1,21 @@
 
-import json, time
+import json, time, sys
 from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
 
 
-path = "test.json"
+try:
+	data = sys.argv[1]
+except:
+	data = 'home'
+
+try:
+	sky = sys.argv[2]
+except:
+	sky = 'night'
+
+
+path = f"worlds/{data}.json"
 with open(path) as f:
    obj = json.load(f)
 
@@ -12,7 +23,7 @@ app = Ursina()
 len_pos = len(obj['position'])
 
 
-sky_texture   = load_texture('assets/skybox.png')
+sky_texture   = load_texture(f'assets/{sky}.png')
 grass_texture = load_texture('assets/grass_block.png')
 stone_texture = load_texture('assets/stone_block.png')
 brick_texture = load_texture('assets/brick_block.png')
@@ -140,10 +151,10 @@ if len_pos == 0:
 			obj["position"].append(box)
 			voxel = Voxel(position = (x,0,z))
 else:
-	print(len_pos)
+	print('------->', len_pos)
 
 
-deatils = Text(origin=(-.6, -.7),
+deatils = Text(origin=(-.7, -1.5),
 	font='VeraMono.ttf', 
 	color=color.red,
 	) 
