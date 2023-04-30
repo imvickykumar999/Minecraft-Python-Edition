@@ -20,7 +20,6 @@ s.listen(MAX_PLAYERS)
 
 players = {}
 
-
 def generate_id(player_list: dict, max_players: int):
     """
     Generate a unique identifier

@@ -13,10 +13,20 @@ from bullet import Bullet
 
 
 username = input("Enter your username: ")
+if username == '':
+    username = 'imvickykumar999'
+
+def get_ip_address():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8", 80))
+    return s.getsockname()[0]
+
 
 while True:
-    server_addr = input("Enter server IP: ")
-    server_port = input("Enter server port: ")
+    # server_addr = input("Enter server IP: ")
+    server_addr = get_ip_address()
+    # server_port = input("Enter server port: ")
+    server_port = 8000
 
     try:
         server_port = int(server_port)
