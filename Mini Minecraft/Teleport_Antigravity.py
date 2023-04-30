@@ -87,11 +87,11 @@ window.fullscreen = 1
 player = FirstPersonController(gravity=.5)
 
 # https://stackoverflow.com/a/75692459/11493297
-# def update():
-#     print('Player is at Height = ', player.y)
+def update():
+    # print('Player is at Height = ', player.y)
 
-#     if player.y < -10:
-#         player.y = 140   # No infinite falling.
+    if player.y < -10 or player.y > 250:
+        player.y = 150   # No infinite falling.
 
 # player = FirstPersonController(
                     # model='sphere', 
