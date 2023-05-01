@@ -125,6 +125,6 @@ def update():
         print_on_screen("Level 3", position=(0,.3))
         
 
-skybox_image = load_texture("static/skybox.png")
+skybox_image = load_texture("static/day.png")
 sky = Sky(texture=skybox_image)
 app.run()

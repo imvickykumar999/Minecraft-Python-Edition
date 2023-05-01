@@ -7,6 +7,7 @@ from ursina import *
 app = Ursina()
 n=20 # initial maze side
 c=0  # texture index
+save_maze = []
 
 opt_texture = [
     'arrow_down',
@@ -61,21 +62,28 @@ for k in [0,-30,-50]:
 
     s_maze = mzs.solve_maze(us_maze)
     # print(s_maze) # Solved
+    save_maze.append(s_maze)
 
     y=k
     for z in range(len(s_maze)):
         for x in range(len(s_maze[z])):
+
+            position = (x,y,z)
             c+=1
 
             if us_maze[z][x] == 'p':
-                Entity(position=(x,y,z), 
-                    # texture=opt_texture[c%len(opt_texture)],
-                    texture='horizontal_gradient',
-                    default_color=color.green,
+                texture = opt_texture[c%len(opt_texture)]
+                # texture = 'horizontal_gradient'
+
+                Entity(position = position, 
+                    texture = texture,
+                    default_color = color.white,
                     )
+                
             else:
-                Entity(position=(x,y,z))
-                # voxel = Voxel(position=(x,y,z))
+                texture = 'grass'
+                Entity(position = position)
+                # Voxel(position=(x,y,z))
 
             
     y=k+1                          # for lower wall
@@ -89,6 +97,10 @@ for k in [0,-30,-50]:
                     # scale=(.5,.5,.5),
                     default_color=color.orange,
                     )
+                
+                
+with open('static/save_maze.txt', 'w') as f:
+    f.write(str(save_maze))
 
 def input(key):
     global player
@@ -125,6 +137,6 @@ def update():
         print_on_screen("Level 3", position=(0,.3))
         
 
-skybox_image = load_texture("static/skybox.png")
+skybox_image = load_texture("static/night.png")
 sky = Sky(texture=skybox_image)
 app.run()
