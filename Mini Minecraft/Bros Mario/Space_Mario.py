@@ -6,9 +6,9 @@ app = Ursina()
 
 class Voxel(Button):
     def __init__(
-            self, position=(0,0,0),
-            color=color.orange,
-            texture='brick',
+        self, position=(0,0,0),
+        color=color.orange,
+        texture='brick',
         ):
         
         super().__init__(
@@ -19,20 +19,21 @@ class Voxel(Button):
             texture=texture,
             color=color,
             highlight_color=color,
-        )
+            )
 
 for y in range(3,-1,-1):
     for z in range(y, 100, 6):
         for x in range(2):
-            voxel = Voxel(position=(x,y,z),
-                          color=color.green,
-                          texture='grass',
-                          )
+            Voxel(
+            position=(x,y,z),
+            color=color.green,
+            texture='grass'
+            )
 
 for y in range(5):
     for z in range(y+110, 210, 14):
         for x in range(2):
-            voxel = Voxel(position=(x,y,z))
+            Voxel(position=(x,y,z))
 
 def update():
     global deatils, player, won
@@ -47,17 +48,9 @@ def update():
         Score = {int(player.z)}
         '''
 
-
 def input(key):
-    hit_info = raycast(camera.world_position, camera.forward, distance=100)
-
-    # if key == 'left mouse down':
-    #     if hit_info.hit:
-    #         Voxel(position=hit_info.entity.position + hit_info.normal)
-
     if key == 'right mouse down' and mouse.hovered_entity:
         destroy(mouse.hovered_entity)
-
 
 deatils = Text(
     origin=(.2, -4),
