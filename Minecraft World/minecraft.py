@@ -21,7 +21,7 @@ with open(path) as f:
 
 app = Ursina()
 len_pos = len(obj['position'])
-
+t = time.time()
 
 sky_texture   = load_texture(f'assets/{sky}.png')
 grass_texture = load_texture('assets/grass_block.png')
@@ -31,7 +31,7 @@ dirt_texture  = load_texture('assets/dirt_block.png')
 arm_texture   = load_texture('assets/arm_texture.png')
 
 block_pick = 1
-punch_sound   = Audio('assets/punch_sound',loop = False, autoplay = False)
+punch_sound   = Audio('assets/punch_sound', loop = False, autoplay = False)
 
 
 window.fps_counter.enabled = False
@@ -56,15 +56,11 @@ def update():
 	if held_keys['4']: block_pick = 4
 
 	deatils.text = f'''
-		>>> Details ...
-		-----------------------------
-		Unix Time = {int(time.time())}
-
+		Time Spent = {int(time.time() - t)} sec.
 		Coordinate X = {player.x}
 		Coordinate Y = {player.y}
 		Coordinate Z = {player.z}
 	'''
-
 
 class Voxel(Button):
 	def __init__(self, position = (0,0,0), texture = grass_texture):
@@ -78,7 +74,7 @@ class Voxel(Button):
 			scale = 0.5)
 
 
-	def input(self,key):
+	def input(self, key):
 		if self.hovered:
 			save_new = self.position + mouse.normal
 
@@ -156,7 +152,7 @@ else:
 
 deatils = Text(origin=(-.7, -1.5),
 	font='VeraMono.ttf', 
-	color=color.red,
+	color=color.black,
 	) 
 
 player = FirstPersonController()

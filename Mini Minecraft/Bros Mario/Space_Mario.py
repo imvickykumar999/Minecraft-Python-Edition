@@ -63,10 +63,11 @@ won = Text(
 	color=color.red,
 	) 
 
-window.fullscreen = 1
+window.fullscreen = True
 player = FirstPersonController()
 player.gravity = 10e-2
 
 skybox_image = load_texture("space.png")
 sky = Sky(texture=skybox_image)
+# Sky()
 app.run()
