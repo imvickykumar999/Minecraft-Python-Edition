@@ -12,6 +12,14 @@
 >
 >-----------
 >
+>### `Super Mario Bros` **in** `Space` *with* `Real Time Score Feature`
+>
+>![Super Mario Bros](https://user-images.githubusercontent.com/50515418/235590940-1204d08f-1d21-45ba-80f9-969c3cb155e9.png)
+>
+>[(press space to jump)](https://github.com/imvickykumar999/Minecraft-Python-Edition/blob/c29b51e3ebf16b262cbdc2c89dd7ea3b2de02252/Mini%20Minecraft/Bros%20Mario/Space_Mario.py#L43)
+>
+>-----------
+>
 >### `Tik Tak Toe` **as** `3D Game` *with* `Teleporting Feature`
 >
 >![Tik Tak Toe](https://user-images.githubusercontent.com/50515418/234289659-ddcc0368-e813-4f50-bf3a-3ac04fef8cbb.png)
