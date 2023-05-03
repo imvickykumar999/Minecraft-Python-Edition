@@ -67,8 +67,9 @@ for y in range(4):
 
 def update():
     global deatils, player, won, cont, dx
+    tc = time.time()
 
-    if (player.z < 212 and player.y < -2) or (time.time() - t > 100):
+    if (player.z < 212 and player.y < -2) or (tc - t > 100) or (str(player.intersects().entity) == 'entity'):
         won.text = 'You Lost'
         won.color = color.red
 
@@ -87,7 +88,7 @@ def update():
         
     deatils.text = f'''
     Score = {int(player.z)}
-    Time left = {int(100 - (time.time() - t))} sec.
+    Time left = {int(100 - (tc - t))} sec.
     '''
 
     ball.x += dx
