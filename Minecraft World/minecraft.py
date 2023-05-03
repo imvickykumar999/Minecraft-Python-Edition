@@ -30,8 +30,8 @@ brick_texture = load_texture('assets/brick_block.png')
 dirt_texture  = load_texture('assets/dirt_block.png')
 arm_texture   = load_texture('assets/arm_texture.png')
 
-block_pick = 1
 punch_sound   = Audio('assets/punch_sound', loop = False, autoplay = False)
+block_pick = 1
 
 
 window.fps_counter.enabled = False

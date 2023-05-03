@@ -3,6 +3,9 @@ from ursina import *
 from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
+mario = Audio('static/super-mario-bros.mp3', loop = True, autoplay = True)
+fall = Audio('static/Super Mario Death.mp3', loop = False, autoplay = False)
+cont = True
 
 class Voxel(Button):
     def __init__(
@@ -36,10 +39,15 @@ for y in range(5):
             Voxel(position=(x,y,z))
 
 def update():
-    global deatils, player, won
+    global deatils, player, won, cont
 
     if player.y < -2:
         won.text = 'You Lost'
+
+        mario.pause()
+        if cont:
+            cont = False
+            fall.play()
         
     if player.z > 205 and player.y > -1:
         deatils.text = 'You Won'
@@ -67,7 +75,7 @@ window.fullscreen = True
 player = FirstPersonController()
 player.gravity = 10e-2
 
-skybox_image = load_texture("space.png")
+skybox_image = load_texture("static/space.png")
 sky = Sky(texture=skybox_image)
 # Sky()
 app.run()
