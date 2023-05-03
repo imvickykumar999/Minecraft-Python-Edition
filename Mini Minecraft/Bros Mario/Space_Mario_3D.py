@@ -1,7 +1,5 @@
 
-import time
 from ursina import *
-from random import randint
 from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
@@ -10,9 +8,10 @@ window.fullscreen = True
 
 player = FirstPersonController(collider='box')
 player.gravity = 10e-2
+
+player.x = 1
 player.y = 3
 player.z = 3
-player.x = 1
 
 ball = Entity(
     scale=.5,
@@ -20,7 +19,7 @@ ball = Entity(
     model='sphere',
     color=color.red,
     position=(0,1,110),
-    texture='circle_outlined',
+    texture='reflection_map_3',
 )
 
 box_1 = Entity( 
@@ -92,6 +91,10 @@ def update():
     '''
 
     ball.x += dx
+    ball.rotation_x += time.dt*100
+    ball.rotation_y += time.dt*100
+    ball.rotation_z += time.dt*100
+
     if ball.intersects().hit:
         dx =- dx # bounce back
 
