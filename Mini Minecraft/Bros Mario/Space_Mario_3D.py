@@ -18,7 +18,7 @@ ball = Entity(
     collider='box',
     model='sphere',
     color=color.red,
-    position=(0,1,110),
+    position=(5,2,110),
     texture='reflection_map_3',
 )
 
@@ -27,7 +27,7 @@ box_1 = Entity(
     scale=(2,4,2),
     collider='box',
     color=color.white,
-    position=(8,1,110), 
+    position=(8,2,110), 
     texture='static/wall.png',
 )
 
@@ -91,7 +91,9 @@ def update():
     Time left = {int(100 - (tc - t))} sec.
     '''
 
-    ball.x += dx
+    ball.x += dx # to move ball side-wise
+    # ball.z = box_1.z = box_2.z = int(player.z) # to move ball forward
+
     ball.rotation_x += time.dt*100
     ball.rotation_y += time.dt*100
     ball.rotation_z += time.dt*100
