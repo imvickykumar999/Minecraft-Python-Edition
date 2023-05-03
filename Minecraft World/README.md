@@ -11,7 +11,7 @@
 
 `New World` :
 
-        python reset.py ground
+        python reset.py new
         
 `On Reset` : 
 

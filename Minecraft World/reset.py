@@ -4,7 +4,7 @@ import json, sys
 try:
 	data = sys.argv[1]
 except:
-	data = 'ground'
+	data = 'new'
         
 path = f"worlds/{data}.json"
 
