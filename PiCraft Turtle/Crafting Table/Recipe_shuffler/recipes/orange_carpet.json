@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:orange_carpet"}, "tags": ["crafting_table"], "group": "carpet", "pattern": ["##"], "key": {"#": {"item": "minecraft:wool", "data": 1}}, "result": {"item": "minecraft:potion_type:slowness", "data": 1, "count": 3}}}

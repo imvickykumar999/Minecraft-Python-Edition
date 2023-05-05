@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_furnace": {"description": {"identifier": "minecraft:furnace_acacia_wood"}, "tags": ["furnace"], "input": "minecraft:wood:4", "output": "minecraft:waxed_oxidized_cut_copper_slab"}}

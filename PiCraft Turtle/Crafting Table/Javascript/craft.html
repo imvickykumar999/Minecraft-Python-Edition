@@ -1,0 +1,93 @@
+<!-- 
+Minecraft Crafting Table by 101Computing
+http://www.101computing.net/minecraft-crafting-table/
+-->
+<DIV id="screen">
+<H1>Crafting Table</H1>
+  <div id="grid">
+        <div class='gridCell' onClick="selectCraftTable(0);" id="craftTable-0"></div>
+        <div class='gridCell' onClick="selectCraftTable(1);" id="craftTable-1"></div>
+        <div class='gridCell' onClick="selectCraftTable(2);" id="craftTable-2"></div>
+        <div class='gridCell' onClick="selectCraftTable(3);" id="craftTable-3"></div>
+        <div class='gridCell' onClick="selectCraftTable(4);" id="craftTable-4"></div>
+        <div class='gridCell' onClick="selectCraftTable(5);" id="craftTable-5"></div>
+        <div class='gridCell' onClick="selectCraftTable(6);" id="craftTable-6"></div>
+        <div class='gridCell' onClick="selectCraftTable(7);" id="craftTable-7"></div>
+        <div class='gridCell' onClick="selectCraftTable(8);" id="craftTable-8"></div>
+  </div>
+    <div class="arrow">
+      &#10132;
+    </div>  
+    <div id="result" onClick="addItemToInventory();">
+    
+    </div>
+
+<H1>Inventory</H1>
+<P>Click on an ingredient from your inventory, then click on a cell of your crafting table to place this ingredient.
+<div id="inventory">
+<div class='gridCell' onClick="selectInventoryItem(0);" id="inventory-0"><img src="http://www.101computing.net/mc/4-0.png" alt="Cobblestone"></div>  
+  <div class='gridCell' onClick="selectInventoryItem(1);" id="inventory-1"><img src="http://www.101computing.net/mc/17-0.png" alt="Wood"></div>
+  <div class='gridCell' onClick="selectInventoryItem(2);" id="inventory-2"><img src="http://www.101computing.net/mc/265-0.png" alt="Iron ingot"></div>
+  <div class='gridCell' onClick="selectInventoryItem(3);" id="inventory-3"><img src="http://www.101computing.net/mc/266-0.png" alt="Gold"></div>
+  <div class='gridCell' onClick="selectInventoryItem(4);" id="inventory-4"><img src="http://www.101computing.net/mc/264-0.png" alt="Diamond"></div>
+  <div class='gridCell' onClick="selectInventoryItem(5);" id="inventory-5"><img src="http://www.101computing.net/mc/331-0.png" alt="Red Stone"></div>
+  <div class='gridCell' onClick="selectInventoryItem(6);" id="inventory-6"><img src="http://www.101computing.net/mc/287-0.png" alt="String"></div>
+  <div class='gridCell' onClick="selectInventoryItem(7);" id="inventory-7"><img src="http://www.101computing.net/mc/288-0.png" alt="Feather"></div>
+  <div class='gridCell' onClick="selectInventoryItem(8);" id="inventory-8"><img src="http://www.101computing.net/mc/318-0.png" alt="Flint"></div>
+  <div class='gridCell' onClick="selectInventoryItem(9);" id="inventory-9"><img src="http://www.101computing.net/mc/263-0.png" alt="Coal"></div>
+  <div class='gridCell' onClick="selectInventoryItem(10);" id="inventory-10"></div>
+  <div class='gridCell' onClick="selectInventoryItem(11);" id="inventory-11"></div>
+  <div class='gridCell' onClick="selectInventoryItem(12);" id="inventory-12"></div>
+  <div class='gridCell' onClick="selectInventoryItem(13);" id="inventory-13"></div>
+  <div class='gridCell' onClick="selectInventoryItem(14);" id="inventory-14"></div>
+  <div class='gridCell' onClick="selectInventoryItem(15);" id="inventory-15"></div>
+  <div class='gridCell' onClick="selectInventoryItem(16);" id="inventory-16"></div>
+  <div class='gridCell' onClick="selectInventoryItem(17);" id="inventory-17"></div>
+  <div class='gridCell' onClick="selectInventoryItem(18);" id="inventory-18"></div>
+  <div class='gridCell' onClick="selectInventoryItem(19);" id="inventory-19"></div>
+  <div class='gridCell' onClick="selectInventoryItem(20);" id="inventory-20"></div>
+  <div class='gridCell' onClick="selectInventoryItem(21);" id="inventory-21"></div>
+  <div class='gridCell' onClick="selectInventoryItem(22);" id="inventory-22"></div>
+  <div class='gridCell' onClick="selectInventoryItem(23);" id="inventory-23"></div>
+  <div class='gridCell' onClick="selectInventoryItem(24);" id="inventory-24"></div>
+  <div class='gridCell' onClick="selectInventoryItem(25);" id="inventory-25"></div>
+  <div class='gridCell' onClick="selectInventoryItem(26);" id="inventory-26"></div>
+</div>
+<! -- List of items in minecraft - http://minecraft-ids.grahamedgecombe.com/ -->
+<! -- List of recipes in minecraft -   https://www.minecraftcraftingguide.net/ -->
+<H1><br/>Recipes</H1>
+<DIV id="recipes">
+<P>Wooden Planks:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-wood-plank.png"> 
+<P>Sticks:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-stick.png"> 
+<P>Chest:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-chest.png"> 
+<P>Crafting Table:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-crafting-table.png"> 
+<P>Furnace:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-furnace.png">   
+<P>Flint and Steel:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-flint-and-steel.png">   
+<P>Redstone Block:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-redstone-block.png"> 
+<P>Swords:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-swords.gif">   
+<P>Fishing Rod:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-fishing-rod.png"> 
+<P>Bow:</P>
+<IMG src="http://www.101computing.net/mc/recipe-bow.png">
+<P>Arrows:</P>
+<IMG src="http://www.101computing.net/mc/recipe-arrow.png">
+<P>Bucket:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-bucket.png">
+<P>Hoes:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-hoes.gif"> 
+<P>Axes:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-axes.gif">  
+<P>Pickaxes:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-pickaxes.gif">  
+<P>Shovels:</P>  
+<IMG src="http://www.101computing.net/mc/recipe-shovels.gif">
+</DIV>
+</DIV>

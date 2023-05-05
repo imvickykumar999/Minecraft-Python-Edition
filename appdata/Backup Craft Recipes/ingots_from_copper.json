@@ -1,0 +1,1 @@
+{"format_version": "1.16", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:ingots_from_copper"}, "tags": ["crafting_table"], "pattern": ["A"], "key": {"A": {"item": "minecraft:copper_block"}}, "result": {"item": "minecraft:carpet", "count": 9}, "priority": 1}}

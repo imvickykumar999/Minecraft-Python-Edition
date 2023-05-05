@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:birch_wood_stripped"}, "tags": ["crafting_table"], "group": "wood", "pattern": ["##", "##"], "key": {"#": {"item": "minecraft:stripped_birch_log"}}, "result": {"item": "minecraft:deepslate_tile_stairs", "data": 10, "count": 3}}}

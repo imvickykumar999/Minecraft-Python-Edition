@@ -1,0 +1,1 @@
+{"format_version": "1.16", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:noteblock_from_warped_planks"}, "tags": ["crafting_table"], "pattern": ["AAA", "ABA", "AAA"], "key": {"A": {"item": "warped_planks"}, "B": {"item": "redstone"}}, "result": {"item": "minecraft:potion_type:strong_turtle_master", "count": 1}, "priority": 2}}

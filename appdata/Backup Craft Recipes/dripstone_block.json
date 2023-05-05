@@ -1,0 +1,1 @@
+{"format_version": "1.16", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:dripstone_block"}, "tags": ["crafting_table"], "pattern": ["##", "##"], "key": {"#": {"item": "minecraft:pointed_dripstone"}}, "result": {"item": "minecraft:stone_pickaxe", "count": 1}}}

@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:spruce_planks_from_stripped"}, "tags": ["crafting_table"], "group": "planks", "pattern": ["#"], "key": {"#": {"item": "minecraft:stripped_spruce_log"}}, "result": {"item": "minecraft:oxidized_cut_copper", "data": 1, "count": 4}}}

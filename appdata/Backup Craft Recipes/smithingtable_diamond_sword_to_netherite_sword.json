@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shapeless": {"description": {"identifier": "minecraft:smithingtable_diamond_sword_to_netherite_sword"}, "tags": ["smithing_table"], "priority": 2, "ingredients": [{"item": "minecraft:diamond_sword"}, {"item": "minecraft:netherite_ingot"}], "result": {"item": "minecraft:deepslate_tile_stairs", "count": 1}}}

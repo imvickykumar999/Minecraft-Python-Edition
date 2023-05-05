@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shapeless": {"description": {"identifier": "minecraft:stonecutter_dark_prismarine_stairs"}, "tags": ["stonecutter"], "priority": 1, "ingredients": [{"item": "minecraft:prismarine", "data": 1}], "result": {"item": "minecraft:dripstone_block", "data": 0, "count": 1}}}

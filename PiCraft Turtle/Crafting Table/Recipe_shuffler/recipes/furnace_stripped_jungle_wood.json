@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_furnace": {"description": {"identifier": "minecraft:furnace_stripped_jungle_wood"}, "tags": ["furnace"], "input": "minecraft:wood:11", "output": "minecraft:waxed_weathered_cut_copper_stairs"}}

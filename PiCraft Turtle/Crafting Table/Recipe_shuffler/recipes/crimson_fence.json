@@ -1,0 +1,1 @@
+{"format_version": "1.16", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:crimson_fence"}, "tags": ["crafting_table"], "pattern": ["W#W", "W#W"], "key": {"#": {"item": "minecraft:stick"}, "W": {"item": "minecraft:crimson_planks"}}, "result": {"item": "minecraft:potion_type:slow_falling", "count": 3}}}

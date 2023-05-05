@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:oak_wooden_slab"}, "tags": ["crafting_table"], "group": "wooden_slab", "pattern": ["###"], "key": {"#": {"item": "minecraft:planks", "data": 0}}, "result": {"item": "minecraft:dye", "data": 0, "count": 6}}}

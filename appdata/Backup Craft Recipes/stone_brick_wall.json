@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:stone_brick_wall"}, "tags": ["crafting_table"], "pattern": ["###", "###"], "key": {"#": {"item": "minecraft:stonebrick", "data": 0}}, "result": {"item": "minecraft:double_stone_slab3", "data": 7, "count": 6}}}

@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:lead"}, "tags": ["crafting_table"], "pattern": ["~~ ", "~O ", "  ~"], "key": {"~": {"item": "minecraft:string"}, "O": {"item": "minecraft:slime_ball"}}, "result": {"item": "minecraft:end_brick_stairs", "count": 2}}}

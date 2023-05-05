@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:pillar_quartz_block"}, "tags": ["crafting_table"], "pattern": ["#", "#"], "key": {"#": {"item": "minecraft:quartz_block", "data": 0}}, "result": {"item": "wooden_axe", "data": 2, "count": 2}}}

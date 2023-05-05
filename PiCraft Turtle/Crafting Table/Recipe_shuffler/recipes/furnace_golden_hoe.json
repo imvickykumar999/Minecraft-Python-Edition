@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_furnace": {"description": {"identifier": "minecraft:furnace_golden_hoe"}, "tags": ["furnace", "blast_furnace"], "input": "minecraft:golden_hoe", "output": "minecraft:heavy_weighted_pressure_plate"}}

@@ -1,0 +1,19 @@
+{
+    "format_version": 2,
+    "header": {
+      "description": "Randomized Minecraft recipes",
+      "name": "I forgot the recipe",
+      "uuid":"c886dee0-4d08-4f1d-a1b2-1a525754ce77",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 16, 0]
+    },
+    "modules":
+      [
+        {
+          "description": "My First Add-On!",
+            "type": "data",
+            "uuid": "67777b04-2159-4760-99f5-367abd495f3c",
+            "version": [1, 0, 0]
+        }
+      ]
+  }

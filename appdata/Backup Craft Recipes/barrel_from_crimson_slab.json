@@ -1,0 +1,1 @@
+{"format_version": "1.16", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:barrel_from_crimson_slab"}, "tags": ["crafting_table"], "pattern": ["ABA", "A A", "ABA"], "key": {"A": {"item": "minecraft:stick"}, "B": {"item": "crimson_slab"}}, "result": {"item": "fletching_table", "count": 1}, "priority": 2}}

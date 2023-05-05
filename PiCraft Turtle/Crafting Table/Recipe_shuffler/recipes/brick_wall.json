@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:brick_wall"}, "tags": ["crafting_table"], "pattern": ["###", "###"], "key": {"#": {"item": "minecraft:brick_block"}}, "result": {"item": "minecraft:warped_trapdoor", "data": 6, "count": 6}}}

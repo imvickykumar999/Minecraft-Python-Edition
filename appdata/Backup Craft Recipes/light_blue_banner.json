@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:light_blue_banner"}, "tags": ["crafting_table"], "group": "banner", "pattern": ["###", "###", " | "], "key": {"#": {"item": "minecraft:wool", "data": 3}, "|": {"item": "minecraft:stick"}}, "result": {"item": "minecraft:stained_glass_pane", "data": 12}}}

@@ -1,0 +1,1 @@
+{"format_version": "1.12", "minecraft:recipe_shapeless": {"description": {"identifier": "minecraft:stonecutter_polished_andesite_stairs2"}, "tags": ["stonecutter"], "priority": 1, "ingredients": [{"item": "minecraft:stone", "data": 6}], "result": {"item": "wooden_hoe", "data": 0, "count": 1}}}

@@ -1,0 +1,1 @@
+{"format_version": "1.16", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:stick_from_warped_planks"}, "tags": ["crafting_table"], "pattern": ["A", "A"], "key": {"A": {"item": "warped_planks"}}, "result": {"item": "minecraft:redstone_lamp", "count": 4}, "priority": 2}}

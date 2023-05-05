@@ -1,0 +1,1 @@
+{"format_version": "1.16", "minecraft:recipe_shaped": {"description": {"identifier": "minecraft:chest_from_crimson_planks"}, "tags": ["crafting_table"], "pattern": ["AAA", "A A", "AAA"], "key": {"A": {"item": "crimson_planks"}}, "result": {"item": "minecraft:potion_type:strong_leaping", "count": 1}, "priority": 2}}
