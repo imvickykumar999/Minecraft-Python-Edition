@@ -15,7 +15,7 @@ class Voxel(Button):
             origin_y=.5,
             texture=texture,
             color=col,
-            highlight_color=color.lime,
+            highlight_color=color.orange,
         )
 
 for z in range(8):
@@ -36,6 +36,7 @@ def input(key):
         destroy(mouse.hovered_entity)
 
 def update():
+    # print(player.x, player.y, player.z)
     if player.y < -5:
         player.y = 100
 
