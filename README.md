@@ -6,6 +6,14 @@
 
 <br> <br>
 
+>## `3D Cone` **Shape as** `Top View` *with* `Geometrical Feature`
+>
+>![Concentric Circles Top View](https://user-images.githubusercontent.com/50515418/236657345-2013a90a-a8fe-4088-9d13-0686be9b1f75.png)
+>
+>[(press right mouse key for top down view)](https://github.com/imvickykumar999/Minecraft-Python-Edition/blob/e7e699a74d42fd83e53581daa0fdccd45cf438eb/Libraries/Ursina/Shapes/flat.py#L30)
+>
+>-----------
+>
 >## `Auto-Save World` *with* `Reset Feature`
 >
 >![Minecraft](https://user-images.githubusercontent.com/50515418/235287735-2941a12f-c0ca-4a02-b7d5-027712868b03.png)
