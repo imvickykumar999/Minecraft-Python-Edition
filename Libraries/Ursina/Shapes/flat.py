@@ -1,8 +1,11 @@
 
 from ursina import *
+import circle as cir
 from ursina.prefabs.first_person_controller import FirstPersonController
 
 app = Ursina()
+radius = 10
+step = 2
 
 class Voxel(Button):
     def __init__(self, position=(0,0,0), 
@@ -15,12 +18,21 @@ class Voxel(Button):
             origin_y=.5,
             texture=texture,
             color=col,
-            highlight_color=color.orange,
+            highlight_color=color.white,
         )
 
-for z in range(8):
-    for x in range(8):
+for z in range(-radius, radius+1):
+    for x in range(-radius, radius+1):
         voxel = Voxel(position=(x,0,z))
+
+# i=radius # 1 layer
+for i in range(1, radius+1, step):
+    for x in cir.printPattern(i,i):
+        Voxel(
+            position=x,
+            texture="brick",
+            col=color.red,
+            )
 
 def input(key):
     hit_info = raycast(camera.world_position, camera.forward, distance=100)

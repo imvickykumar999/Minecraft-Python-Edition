@@ -1,36 +1,23 @@
-# Python implementation
-# to print circle pattern
 
-import math
+def printPattern(radius=4, y=0):
+	import math
+	xyz = []
 
-# function to print circle pattern
-def printPattern(radius):
-	
-	# dist represents distance to the center
-	# for horizontal movement
-	for i in range((2 * radius)+1):
-
-		# for vertical movement
-		for j in range((2 * radius)+1):
+	for x in range((2 * radius)+1):
+		for z in range((2 * radius)+1):
 			
-			dist = math.sqrt((i - radius) * (i - radius) +
-				(j - radius) * (j - radius))
+			dist = math.sqrt((x - radius) * (x - radius) +
+				(z - radius) * (z - radius))
 
-			# dist should be in the
-			# range (radius - 0.5)
-			# and (radius + 0.5) to print stars(*)
 			if (dist > radius - 0.5 and dist < radius + 0.5):
 				print("*",end=" ")
+				xyz.append((x-radius, y ,z-radius))
 			else:
 				print(" ",end=" ")	
 	
-
 		print()
-	
-# Driver code
+	return xyz
 
-radius = 20
-printPattern(radius)
-
-# This code is contributed
-# by Anant Agarwal.
+# radius = 10
+# xyz = printPattern(radius)
+# print(xyz)
