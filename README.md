@@ -4,6 +4,15 @@
 <img src="https://user-images.githubusercontent.com/50515418/235053043-e5436dc0-29d1-4a32-9f5f-76eecaa2cb5f.png" width="50%">
 </p>
 
+<br>
+
+    from art import *
+    tprint("MINECRAFT",font="dot")
+
+<p align="center">
+<img src="https://github.com/imvickykumar999/Minecraft-Python-Edition/assets/50515418/a4495e05-7b4b-461e-83cc-6db0bd7da21e" width="100%">
+</p>
+
 <br> <br>
 
 >## `3D Cone` **Shape as** `Top View` *with* `Geometrical Feature`
