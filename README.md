@@ -6,11 +6,13 @@
 
 <br>
 
+## `Not a Moon Walk` : [`ART`](https://github.com/imvickykumar999/art/blob/109038d940b58a8ee432ea3c951b9c27fa3c3ab1/minecraft.py#L59)
+
     from art import *
     tprint("MINECRAFT",font="dot")
 
 <p align="center">
-<img src="https://github.com/imvickykumar999/Minecraft-Python-Edition/assets/50515418/a4495e05-7b4b-461e-83cc-6db0bd7da21e" width="100%">
+<img src="https://github.com/imvickykumar999/Minecraft-Python-Edition/assets/50515418/7037c8b8-5c4d-41bf-886d-ce80f18ff19d" width="100%">
 </p>
 
 <br> <br>
