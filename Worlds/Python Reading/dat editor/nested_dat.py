@@ -1,8 +1,11 @@
 
 from nbt import nbt
 nbtfile = nbt.NBTFile("level.dat", 'rb')
+data = nbtfile["Data"]
 
-# nbtfile["Data"]["Time"].value = -9223372036854623192
-
-for tag in nbtfile["Data"].tags:
+for tag in data.tags:
     print(tag.tag_info())
+
+    if isinstance(tag, nbt.TAG_Compound):
+        for i in tag.tags:
+            print('\t', i.tag_info())
