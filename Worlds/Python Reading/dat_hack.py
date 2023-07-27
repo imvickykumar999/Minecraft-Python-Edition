@@ -1,12 +1,15 @@
-import os
 
-with open('level.dat', 'rt', encoding="utf8") as fin:
-    with open('out.dat', 'wt', encoding="utf8") as fout:
-        for i, line in enumerate(fin):
-            print(i, line)
-            # if i == 5164:
-            #     fout.write('1\n')
-            # else:
-            #     fout.write(line)
+# https://pypi.org/project/NBT/
+# pip install NBT
 
-# os.rename('out.dat', 'level.dat')
+from nbt import nbt
+nbtfile = nbt.NBTFile("level.dat", 'rb')
+
+# Writing data (changing the difficulty value
+nbtfile["Data"]["Time"].value = -9223372036854623192
+
+print(nbtfile["Data"]["Time"].tag_info())
+nbtfile.write_file("level.dat")
+
+for tag in nbtfile["Data"].tags: # This loop will show us each entry 
+    print(tag.tag_info())
