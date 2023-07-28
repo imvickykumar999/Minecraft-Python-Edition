@@ -58,4 +58,27 @@
 >![Maze 3 Levels](https://user-images.githubusercontent.com/50515418/234289810-51e9914c-e174-4229-a396-7773ca4c2a25.png)
 >
 > [(press f for anti-gravity)](https://github.com/imvickykumar999/Minecraft-Python-Edition/blob/7fcefd2f08dd44ec897a26275753193e22208a32/Mini%20Games/Maze%20Minecraft/MAZE3D.py#L105)
->
+
+----------------------
+
+    DOWNLOAD ALL THESE GREAT BUILDS!
+    
+● Tanviir   http://bit.ly/1sDTTNj
+
+● Arrodil   http://bit.ly/1oAqVAp
+
+● Elija's Temple  http://bit.ly/1kbkFfk
+
+● Edoras   http://bit.ly/1gcDbV7
+
+● [S 750] Steampunk  http://bit.ly/1vjbzlo
+
+● Msk - Kellmoor  http://bit.ly/1jTAnfz
+
+● Darios   http://bit.ly/1nU0o0U
+
+● Valora   http://bit.ly/1oAr1ru
+
+● Ruins of Falcrest http://bit.ly/1n7irwB
+
+● Alderth   http://bit.ly/1sDUfna
