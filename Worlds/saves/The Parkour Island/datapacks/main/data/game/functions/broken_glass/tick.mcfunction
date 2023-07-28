@@ -1,1 +1,0 @@
-execute if block -24 -38 32 oak_pressure_plate[powered=true] run function game:broken_glass/frame/1

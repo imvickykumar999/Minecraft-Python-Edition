@@ -1,1 +1,0 @@
-scoreboard objectives add end_timer dummy "end_timer"

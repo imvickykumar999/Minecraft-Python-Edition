@@ -1,1 +1,0 @@
-execute unless entity @e[name="console"] run summon marker ~ ~ ~ {CustomName:'{"text": "console"}'}

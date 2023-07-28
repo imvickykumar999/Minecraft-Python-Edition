@@ -1,1 +1,0 @@
-execute as @a[x=56,y=12,z=-74,dx=6,dy=8,dz=6] run tag @s add end
