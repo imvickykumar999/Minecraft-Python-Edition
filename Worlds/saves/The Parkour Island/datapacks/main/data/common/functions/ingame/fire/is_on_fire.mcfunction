@@ -1,0 +1,9 @@
+execute if block ~ ~ ~ #common:firedamage run scoreboard players set @s on_fire 1
+execute if block ~.3 ~ ~ #common:firedamage run scoreboard players set @s on_fire 1
+execute if block ~-.3 ~ ~ #common:firedamage run scoreboard players set @s on_fire 1
+execute if block ~ ~ ~.3 #common:firedamage run scoreboard players set @s on_fire 1
+execute if block ~ ~ ~-.3 #common:firedamage run scoreboard players set @s on_fire 1
+execute if block ~.3 ~ ~.3 #common:firedamage run scoreboard players set @s on_fire 1
+execute if block ~.3 ~ ~-.3 #common:firedamage run scoreboard players set @s on_fire 1
+execute if block ~-.3 ~ ~.3 #common:firedamage run scoreboard players set @s on_fire 1
+execute if block ~-.3 ~ ~-.3 #common:firedamage run scoreboard players set @s on_fire 1

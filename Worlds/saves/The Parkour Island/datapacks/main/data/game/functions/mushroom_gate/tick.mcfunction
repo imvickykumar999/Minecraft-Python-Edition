@@ -1,0 +1,1 @@
+execute if block -19 24 26 warped_button[powered=true] run function game:mushroom_gate/frame/1

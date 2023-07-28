@@ -1,0 +1,19 @@
+{
+    "parent": "game:ee/root",
+    "display": {
+        "title": {"text":"TNT","color":"light_purple","bold":true},
+        "description": {"text":"","color":"white","bold":false},
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "place_tnt": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

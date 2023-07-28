@@ -1,0 +1,29 @@
+{
+
+  "parent": "minecraft:nether/return_to_sender",
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "advancements.nether.uneasy_alliance.title"
+    },
+    "description": {
+      "translate": "advancements.nether.uneasy_alliance.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

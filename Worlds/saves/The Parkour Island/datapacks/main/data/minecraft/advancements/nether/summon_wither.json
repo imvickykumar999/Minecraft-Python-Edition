@@ -1,0 +1,29 @@
+{
+
+  "parent": "minecraft:nether/get_wither_skull",
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.nether.summon_wither.title"
+    },
+    "description": {
+      "translate": "advancements.nether.summon_wither.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

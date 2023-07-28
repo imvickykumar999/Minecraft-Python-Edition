@@ -1,0 +1,2 @@
+execute if block -11 9 -30 oak_button[powered=true] unless block -18 -2 -31 redstone_block run setblock -18 -2 -31 redstone_block
+execute unless block -11 9 -30 oak_button[powered=true] unless block -18 -2 -31 air run setblock -18 -2 -31 air

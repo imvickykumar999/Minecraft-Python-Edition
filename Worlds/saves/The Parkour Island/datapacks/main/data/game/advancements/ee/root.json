@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Easter Eggs",
+            "color": "light_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Can you find the 10 hidden Easter Eggs?",
+            "color": "white",
+            "bold":false
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt":"{SkullOwner:{Id:[I;1743308564,-1259253781,-2144056727,925105582],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JlNzU0NTI5N2RmZDYyNjZiYmFhMjA1MTgyNWU4ODc5Y2JmYTQyYzdlN2UyNGU1MDc5NmYyN2NhNmExOCJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

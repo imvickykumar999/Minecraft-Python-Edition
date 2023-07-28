@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values":[
+    "minecraft:grass",
+    "minecraft:flowering_azalea",
+    "minecraft:azalea",
+    "minecraft:red_tulip",
+    "minecraft:white_tulip",
+    "minecraft:orange_tulip",
+    "minecraft:pink_tulip",
+    "minecraft:allium",
+    "minecraft:moss_carpet",
+    "minecraft:vine"
+	]
+}

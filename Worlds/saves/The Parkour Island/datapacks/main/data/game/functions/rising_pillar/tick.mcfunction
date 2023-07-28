@@ -1,0 +1,35 @@
+execute if score rising_pillar ingame_timer matches 1.. run scoreboard players remove rising_pillar ingame_timer 1
+
+execute if score rising_pillar ingame_timer matches 300 positioned 21 -25 -34 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 297 positioned 21 -24 -34 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 294 positioned 21 -23 -34 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 291 positioned 21 -22 -34 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 288 positioned 18 -24 -32 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 285 positioned 18 -23 -32 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 282 positioned 18 -22 -32 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 279 positioned 18 -21 -32 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 276 positioned 16 -23 -29 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 273 positioned 16 -22 -29 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 270 positioned 16 -21 -29 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 267 positioned 16 -20 -29 run function game:rising_pillar/setblock
+execute if score rising_pillar ingame_timer matches 264 positioned 15 -22 -26 run function game:rising_pillar/setblock2
+execute if score rising_pillar ingame_timer matches 261 positioned 15 -21 -26 run function game:rising_pillar/setblock2
+execute if score rising_pillar ingame_timer matches 258 positioned 15 -20 -26 run function game:rising_pillar/setblock2
+execute if score rising_pillar ingame_timer matches 255 positioned 15 -19 -26 run function game:rising_pillar/setblock2
+
+execute if score rising_pillar ingame_timer matches 97 positioned 21 -25 -34 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 100 positioned 21 -24 -34 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 103 positioned 21 -23 -34 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 106 positioned 21 -22 -34 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 85 positioned 18 -24 -32 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 88 positioned 18 -23 -32 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 91 positioned 18 -22 -32 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 94 positioned 18 -21 -32 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 73 positioned 16 -23 -29 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 76 positioned 16 -22 -29 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 79 positioned 16 -21 -29 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 82 positioned 16 -20 -29 run function game:rising_pillar/setair
+execute if score rising_pillar ingame_timer matches 61 positioned 15 -22 -26 run function game:rising_pillar/setair2
+execute if score rising_pillar ingame_timer matches 64 positioned 15 -21 -26 run function game:rising_pillar/setair2
+execute if score rising_pillar ingame_timer matches 67 positioned 15 -20 -26 run function game:rising_pillar/setair2
+execute if score rising_pillar ingame_timer matches 70 positioned 15 -19 -26 run function game:rising_pillar/setair2

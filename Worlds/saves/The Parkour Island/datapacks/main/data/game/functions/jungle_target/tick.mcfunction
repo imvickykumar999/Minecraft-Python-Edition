@@ -1,0 +1,4 @@
+execute as @a[tag=bow] run function game:jungle_target/bow
+execute as @e[type=arrow,x=73,y=-4,z=19,dx=-75,dy=-33,dz=-72] run function game:jungle_target/arrow
+
+execute unless block 23 -13 -13 target[power=0] unless block 23 -13 -13 target[power=1] unless block 23 -13 -13 target[power=2] unless block 23 -13 -13 target[power=3] unless block 23 -13 -13 target[power=4] unless block 23 -13 -13 target[power=5] unless block 23 -13 -13 target[power=6] unless block 23 -13 -13 target[power=7] unless block 23 -13 -13 target[power=8] unless block 18 -16 -37 redstone_block run setblock 18 -16 -37 redstone_block

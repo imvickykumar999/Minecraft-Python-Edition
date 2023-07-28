@@ -1,0 +1,1 @@
+fill 24 25 2 23 25 2 dark_oak_pressure_plate destroy

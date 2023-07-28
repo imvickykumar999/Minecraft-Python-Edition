@@ -1,0 +1,1 @@
+setblock 12 19 32 stone

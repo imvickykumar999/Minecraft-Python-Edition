@@ -1,0 +1,30 @@
+{
+
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_hoe",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.husbandry.break_diamond_hoe.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.break_diamond_hoe.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

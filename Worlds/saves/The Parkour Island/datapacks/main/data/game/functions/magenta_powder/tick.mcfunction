@@ -1,0 +1,1 @@
+execute if block 24 28 -6 mangrove_pressure_plate[powered=true] run function game:magenta_powder/frame/1

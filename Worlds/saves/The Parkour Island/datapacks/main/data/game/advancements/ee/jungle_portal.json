@@ -1,0 +1,19 @@
+{
+    "parent": "game:ee/root",
+    "display": {
+        "title": {"text":"Jungle Portal","color":"light_purple","bold":true},
+        "description": {"text":"","color":"white","bold":false},
+        "icon": {
+            "item": "minecraft:vine"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

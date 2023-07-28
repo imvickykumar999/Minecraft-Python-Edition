@@ -1,0 +1,19 @@
+{
+    "parent": "game:ee/root",
+    "display": {
+        "title": {"text":"Lighthouse Treasure","color":"light_purple","bold":true},
+        "description": {"text":"","color":"white","bold":false},
+        "icon": {
+            "item": "minecraft:raw_gold_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
